@@ -1,6 +1,6 @@
 name: phonecodes
 description: This package provides a list of Countries with their name, ISO code, Dial code, Flag.
-version: 0.0.0
+version: 0.0.1
 repository: https://github.com/HeySreelal/phonecodes
 
 environment:
