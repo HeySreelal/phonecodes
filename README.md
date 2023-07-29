@@ -1,39 +1,77 @@
-<!-- 
-This README describes the package. If you publish this package to pub.dev,
-this README's contents appear on the landing page for your package.
+# Contry Codes 🌍
 
-For information about how to write a good package README, see the guide for
-[writing package pages](https://dart.dev/guides/libraries/writing-package-pages). 
-
-For general information about developing packages, see the Dart guide for
-[creating packages](https://dart.dev/guides/libraries/create-library-packages)
-and the Flutter guide for
-[developing packages and plugins](https://flutter.dev/developing-packages). 
--->
-
-TODO: Put a short description of the package here that helps potential users
-know whether this package might be useful for them.
+A list of all the country codes, dial codes, their corresponding country names, and flag.
 
 ## Features
 
-TODO: List what your package can do. Maybe include images, gifs, or videos.
+1. Have access to all the country codes.
+2. Get the country code by country name.
+3. Get the country name by country code.
+4. Get the country by dial code.
 
-## Getting started
+## ⚙️ Getting started
 
-TODO: List prerequisites and provide or point to information on how to
-start using the package.
+Install the package by adding the following line into your `pubspec.yaml` file:
 
-## Usage
-
-TODO: Include short and useful examples for package users. Add longer examples
-to `/example` folder. 
-
-```dart
-const like = 'sample';
+```yaml
+dependencies:
+  phonecodes: <VERSION>
 ```
 
-## Additional information
+Now import the package into your project:
 
-TODO: Tell users more about the package: where to find more information, how to 
-contribute to the package, how to file issues, what response they can expect 
-from the package authors, and more.
+```dart
+import 'package:countrycodes_field/countrycodes.dart';
+```
+
+## 📚 Usage 
+
+### Find Country 🔍
+
+To find the dial code of a specific country, use the following code:
+
+```dart
+var country = Countries.findByName("United Kingdom");
+
+print(country.flag); // 🇬🇧
+```
+
+Similarly, you can get the country code, country name, and country flag by country name, country code, and dial code.
+
+```dart
+var c1 = Countries.findByName("United Kingdom");
+var c2 = Countries.findByCode("GB");
+var c3 = Countries.findByDialCode("+44");
+```
+
+If the country is not found, an exception will be thrown.
+
+## Model 🧑🏻‍💻
+
+Country object is as shown below:
+
+```dart
+class Country {
+  final String name;
+  final String code;
+  final String dialCode;
+  final String flag;
+
+  const Country({
+    required this.name,
+    required this.code,
+    required this.dialCode,
+    required this.flag,
+  });
+}
+```
+
+
+# Contribute 💻
+If you'd like to have a feature added, please open an issue or create a pull request.
+
+
+# License 🔑
+
+License details can be found in the [LICENSE](./LICENSE) file.
+
