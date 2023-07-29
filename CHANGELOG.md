@@ -1,3 +1,6 @@
+## 0.0.1
+- Updated license
+- Updated README
 ## 0.0.0
 
 - Initial version.

@@ -1,4 +1,4 @@
-# Contry Codes 🌍
+# Phone Codes 🌍
 
 A list of all the country codes, dial codes, their corresponding country names, and flag.
 
