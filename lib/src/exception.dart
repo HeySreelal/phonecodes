@@ -13,3 +13,17 @@ class CountryNotFoundException implements Exception {
     return 'CountryNotFoundException: Country with code $code not found';
   }
 }
+
+/// Exception representing a currency not found
+class CurrencyException implements Exception {
+  /// The reason why the currency was not found
+  final String reason;
+
+  /// Creates a new CurrencyNotFoundException instance
+  CurrencyException(this.reason);
+
+  @override
+  String toString() {
+    return 'CurrencyException: $reason';
+  }
+}
