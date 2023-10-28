@@ -2,6 +2,60 @@ part of phonecodes;
 
 /// Currency enum represents the currency of a country.
 enum Currency {
+  /// Afghan Afghani
+  afn._("Afghan Afghani", "AFN", "؋"),
+
+  /// Albanian Lek
+  all._("Albanian Lek", "ALL", "Lek"),
+
+  /// Algerian Dinar
+  dzd._("Algerian Dinar", "DZD", "دج"),
+
+  /// Angolan Kwanza
+  aoa._("Angolan Kwanza", "AOA", "Kz"),
+
+  /// East Caribbean Dollar
+  xcd._("East Caribbean Dollar", "XCD", "EC\$"),
+
+  /// Argentine Peso
+  ars._("Argentine Peso", "ARS", "\$"),
+
+  /// Armenian Dram
+  amd._("Armenian Dram", "AMD", "֏"),
+
+  /// Aruban Florin
+  awg._("Aruban Florin", "AWG", "AWG"),
+
+  /// Australian Dollar
+  aud._("Australian Dollar", "AUD", "\$"),
+
+  /// Azerbaijani Manat
+  azn._("Azerbaijani Manat", "AZN", "₼"),
+
+  /// Bahamian Dollar
+  bsd._("Bahamian Dollar", "BSD", "B\$"),
+
+  /// Bahraini Dinar
+  bhd._("Bahraini Dinar", "BHD", "ب.د"),
+
+  /// Bangladeshi Taka
+  bdt._("Bangladeshi Taka", "BDT", "৳"),
+
+  /// Barbadian Dollar
+  bbd._("Barbadian Dollar", "BBD", "Bds\$"),
+
+  /// Belarusian Ruble
+  byn._("Belarusian Ruble", "BYN", "Br"),
+
+  /// Belize Dollar
+  bzd._("Belize Dollar", "BZD", "BZ\$"),
+
+  /// West African CFA Franc
+  xof._("West African CFA Franc", "XOF", "CFA"),
+
+  /// Bermudian Dollar
+  bmd._("Bermudian Dollar", "BMD", "BD\$"),
+
   /// Indian Rupee
   inr._("Indian Rupee", "INR", "₹"),
 

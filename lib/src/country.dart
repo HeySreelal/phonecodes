@@ -3,73 +3,211 @@ part of phonecodes;
 /// This class represents a Country with its name, code, dialCode and flag.
 enum Country {
   /// Afghanistan
-  afghanistan._("Afghanistan", "AF", "+93", "🇦🇫"),
+  afghanistan._(
+    "Afghanistan",
+    "AF",
+    "+93",
+    "🇦🇫",
+    Currency.afn,
+  ),
 
   /// Albania
-  albania._("Albania", "AL", "+355", "🇦🇱"),
+  albania._(
+    "Albania",
+    "AL",
+    "+355",
+    "🇦🇱",
+    Currency.all,
+  ),
 
   /// Algeria
-  algeria._("Algeria", "DZ", "+213", "🇩🇿"),
+  algeria._(
+    "Algeria",
+    "DZ",
+    "+213",
+    "🇩🇿",
+    Currency.dzd,
+  ),
 
   /// American Samoa
-  americanSamoa._("American Samoa", "AS", "+1684", "🇦🇸"),
+  americanSamoa._(
+    "American Samoa",
+    "AS",
+    "+1684",
+    "🇦🇸",
+    Currency.usd,
+  ),
 
   /// Andorra
-  andorra._("Andorra", "AD", "+376", "🇦🇩"),
+  andorra._(
+    "Andorra",
+    "AD",
+    "+376",
+    "🇦🇩",
+    Currency.eur,
+  ),
 
   /// Angola
-  angola._("Angola", "AO", "+244", "🇦🇴"),
+  angola._(
+    "Angola",
+    "AO",
+    "+244",
+    "🇦🇴",
+    Currency.aoa,
+  ),
 
   /// Anguilla
-  anguilla._("Anguilla", "AI", "+1264", "🇦🇮"),
+  anguilla._(
+    "Anguilla",
+    "AI",
+    "+1264",
+    "🇦🇮",
+    Currency.xcd,
+  ),
 
   /// Antigua and Barbuda
-  antiguaAndBarbuda._("Antigua and Barbuda", "AG", "+1268", "🇦🇬"),
+  antiguaAndBarbuda._(
+    "Antigua and Barbuda",
+    "AG",
+    "+1268",
+    "🇦🇬",
+    Currency.xcd,
+  ),
 
   /// Argentina
-  argentina._("Argentina", "AR", "+54", "🇦🇷"),
+  argentina._(
+    "Argentina",
+    "AR",
+    "+54",
+    "🇦🇷",
+    Currency.ars,
+  ),
 
   /// Armenia
-  armenia._("Armenia", "AM", "+374", "🇦🇲"),
+  armenia._(
+    "Armenia",
+    "AM",
+    "+374",
+    "🇦🇲",
+    Currency.amd,
+  ),
 
   /// Aruba
-  aruba._("Aruba", "AW", "+297", "🇦🇼"),
+  aruba._(
+    "Aruba",
+    "AW",
+    "+297",
+    "🇦🇼",
+    Currency.awg,
+  ),
 
   /// Australia
-  australia._("Australia", "AU", "+61", "🇦🇺"),
+  australia._(
+    "Australia",
+    "AU",
+    "+61",
+    "🇦🇺",
+    Currency.aud,
+  ),
 
   /// Austria
-  austria._("Austria", "AT", "+43", "🇦🇹"),
+  austria._(
+    "Austria",
+    "AT",
+    "+43",
+    "🇦🇹",
+    Currency.eur,
+  ),
 
   /// Azerbaijan
-  azerbaijan._("Azerbaijan", "AZ", "+994", "🇦🇿"),
+  azerbaijan._(
+    "Azerbaijan",
+    "AZ",
+    "+994",
+    "🇦🇿",
+    Currency.azn,
+  ),
 
   /// Bahamas
-  bahamas._("Bahamas", "BS", "+1242", "🇧🇸"),
+  bahamas._(
+    "Bahamas",
+    "BS",
+    "+1242",
+    "🇧🇸",
+    Currency.bsd,
+  ),
 
   /// Bahrain
-  bahrain._("Bahrain", "BH", "+973", "🇧🇭"),
+  bahrain._(
+    "Bahrain",
+    "BH",
+    "+973",
+    "🇧🇭",
+    Currency.bhd,
+  ),
 
   /// Bangladesh
-  bangladesh._("Bangladesh", "BD", "+880", "🇧🇩"),
+  bangladesh._(
+    "Bangladesh",
+    "BD",
+    "+880",
+    "🇧🇩",
+    Currency.bdt,
+  ),
 
   /// Barbados
-  barbados._("Barbados", "BB", "+1246", "🇧🇧"),
+  barbados._(
+    "Barbados",
+    "BB",
+    "+1246",
+    "🇧🇧",
+    Currency.bbd,
+  ),
 
   /// Belarus
-  belarus._("Belarus", "BY", "+375", "🇧🇾"),
+  belarus._(
+    "Belarus",
+    "BY",
+    "+375",
+    "🇧🇾",
+    Currency.byn,
+  ),
 
   /// Belgium
-  belgium._("Belgium", "BE", "+32", "🇧🇪"),
+  belgium._(
+    "Belgium",
+    "BE",
+    "+32",
+    "🇧🇪",
+    Currency.eur,
+  ),
 
   /// Belize
-  belize._("Belize", "BZ", "+501", "🇧🇿"),
+  belize._(
+    "Belize",
+    "BZ",
+    "+501",
+    "🇧🇿",
+    Currency.bzd,
+  ),
 
   /// Benin
-  benin._("Benin", "BJ", "+229", "🇧🇯"),
+  benin._(
+    "Benin",
+    "BJ",
+    "+229",
+    "🇧🇯",
+    Currency.xof,
+  ),
 
   /// Bermuda
-  bermuda._("Bermuda", "BM", "+1441", "🇧🇲"),
+  bermuda._(
+    "Bermuda",
+    "BM",
+    "+1441",
+    "🇧🇲",
+    Currency.bmd,
+  ),
 
   /// Bhutan
   bhutan._("Bhutan", "BT", "+975", "🇧🇹"),
@@ -297,7 +435,7 @@ enum Country {
   iceland._("Iceland", "IS", "+354", "🇮🇸"),
 
   /// India
-  india._("India", "IN", "+91", "🇮🇳"),
+  india._("India", "IN", "+91", "🇮🇳", Currency.inr),
 
   /// Indonesia
   indonesia._("Indonesia", "ID", "+62", "🇮🇩"),
@@ -713,7 +851,7 @@ enum Country {
   unitedKingdom._("United Kingdom", "GB", "+44", "🇬🇧"),
 
   /// United States
-  unitedStates._("United States", "US", "+1", "🇺🇸"),
+  unitedStates._("United States", "US", "+1", "🇺🇸", Currency.usd),
 
   /// Uruguay
   uruguay._("Uruguay", "UY", "+598", "🇺🇾"),
@@ -765,8 +903,19 @@ enum Country {
   /// Flag of the country
   final String flag;
 
+  /// The [Currency] of the country
+  ///
+  /// Returns null if the country is not supported
+  final Currency? currency;
+
   /// Internal constructor
-  const Country._(this.name, this.code, this.dialCode, this.flag);
+  const Country._(
+    this.name,
+    this.code,
+    this.dialCode,
+    this.flag, [
+    this.currency,
+  ]);
 
   /// Returns the country name
   @override
