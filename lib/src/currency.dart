@@ -56,6 +56,102 @@ enum Currency {
   /// Bermudian Dollar
   bmd._("Bermudian Dollar", "BMD", "BD\$"),
 
+  /// Bhutanese Ngultrum
+  btn._("Bhutanese Ngultrum", "BTN", "Nu."),
+
+  /// Bolivian Boliviano
+  bob._("Bolivian Boliviano", "BOB", "Bs."),
+
+  /// Bosnia-Herzegovina Convertible Mark
+  bam._("Bosnia-Herzegovina Convertible Mark", "BAM", "KM"),
+
+  /// Botswanan Pula
+  bwp._("Botswanan Pula", "BWP", "P"),
+
+  /// Brazilian Real
+  brl._("Brazilian Real", "BRL", "R\$"),
+
+  /// Pound Sterling
+  gbp._("Pound Sterling", "GBP", "£"),
+
+  /// Brunei Dollar
+  bnd._("Brunei Dollar", "BND", "B\$"),
+
+  /// Bulgarian Lev
+  bgn._("Bulgarian Lev", "BGN", "лв"),
+
+  /// Burundian Franc
+  bif._("Burundian Franc", "BIF", "FBu"),
+
+  /// Cambodian Riel
+  khr._("Cambodian Riel", "KHR", "៛"),
+
+  /// Central African CFA Franc
+  xaf._("Central African CFA Franc", "XAF", "FCFA"),
+
+  /// Canadian Dollar
+  cad._("Canadian Dollar", "CAD", "\$"),
+
+  /// Cape Verdean Escudo
+  cve._("Cape Verdean Escudo", "CVE", "Esc"),
+
+  /// Cayman Islands Dollar
+  kyd._("Cayman Islands Dollar", "KYD", "CI\$"),
+
+  /// Chilean Peso
+  clp._("Chilean Peso", "CLP", "\$"),
+
+  /// Chinese Yuan
+  cny._("Chinese Yuan", "CNY", "¥"),
+
+  /// Colombian Peso
+  cop._("Colombian Peso", "COP", "\$"),
+
+  /// Comorian Franc
+  kmf._("Comorian Franc", "KMF", "CF"),
+
+  /// New Zealand Dollar
+  nzd._("New Zealand Dollar", "NZD", "\$"),
+
+  /// Costa Rican Colón
+  crc._("Costa Rican Colón", "CRC", "₡"),
+
+  /// Croatian Kuna
+  hrk._("Croatian Kuna", "HRK", "kn"),
+
+  /// Cuban Peso
+  cup._("Cuban Peso", "CUP", "\$"),
+
+  /// Czech Koruna
+  czk._("Czech Koruna", "CZK", "Kč"),
+
+  /// Antillean Guilder
+  ang._("Antillean Guilder", "ANG", "ƒ"),
+
+  /// Congolese Franc
+  cdf._("Congolese Franc", "CDF", "FC"),
+
+  /// Danish Krone
+  dkk._("Danish Krone", "DKK", "kr"),
+
+  /// Djiboutian Franc
+  djf._("Djiboutian Franc", "DJF", "Fdj"),
+
+  /// Dominican Peso
+  dop._("Dominican Peso", "DOP", "RD\$"),
+
+  /// Egyptian Pound
+  egp._("Egyptian Pound", "EGP", "E£"),
+
+  /// Eritrean Nakfa
+  ern._("Eritrean Nakfa", "ERN", "ERN"),
+
+  /// Ethiopian Birr
+  etb._("Ethiopian Birr", "ETB", "Br"),
+
+  /// Falkland Islands Pound
+  fkp._("Falkland Islands Pound", "FKP", "FK£"),
+
   /// Indian Rupee
   inr._("Indian Rupee", "INR", "₹"),
 

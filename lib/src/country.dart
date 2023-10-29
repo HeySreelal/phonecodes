@@ -210,681 +210,1844 @@ enum Country {
   ),
 
   /// Bhutan
-  bhutan._("Bhutan", "BT", "+975", "🇧🇹"),
+  bhutan._(
+    "Bhutan",
+    "BT",
+    "+975",
+    "🇧🇹",
+    Currency.bmd,
+  ),
 
   /// Bolivia
-  bolivia._("Bolivia", "BO", "+591", "🇧🇴"),
+  bolivia._(
+    "Bolivia",
+    "BO",
+    "+591",
+    "🇧🇴",
+    Currency.bob,
+  ),
 
   /// Bosnia and Herzegovina
-  bosniaAndHerzegovina._("Bosnia and Herzegovina", "BA", "+387", "🇧🇦"),
+  bosniaAndHerzegovina._(
+    "Bosnia and Herzegovina",
+    "BA",
+    "+387",
+    "🇧🇦",
+    Currency.bam,
+  ),
 
   /// Botswana
-  botswana._("Botswana", "BW", "+267", "🇧🇼"),
+  botswana._(
+    "Botswana",
+    "BW",
+    "+267",
+    "🇧🇼",
+    Currency.bwp,
+  ),
 
   /// Brazil
-  brazil._("Brazil", "BR", "+55", "🇧🇷"),
+  brazil._(
+    "Brazil",
+    "BR",
+    "+55",
+    "🇧🇷",
+    Currency.brl,
+  ),
 
   /// British Indian Ocean Territory
   britishIndianOceanTerritory._(
-      "British Indian Ocean Territory", "IO", "+246", "🇮🇴"),
+    "British Indian Ocean Territory",
+    "IO",
+    "+246",
+    "🇮🇴",
+    Currency.gbp,
+  ),
 
   /// British Virgin Islands
-  britishVirginIslands._("British Virgin Islands", "VG", "+1284", "🇻🇬"),
+  britishVirginIslands._(
+    "British Virgin Islands",
+    "VG",
+    "+1284",
+    "🇻🇬",
+    Currency.usd,
+  ),
 
   /// Brunei
-  brunei._("Brunei", "BN", "+673", "🇧🇳"),
+  brunei._(
+    "Brunei",
+    "BN",
+    "+673",
+    "🇧🇳",
+    Currency.bnd,
+  ),
 
   /// Bulgaria
-  bulgaria._("Bulgaria", "BG", "+359", "🇧🇬"),
+  bulgaria._(
+    "Bulgaria",
+    "BG",
+    "+359",
+    "🇧🇬",
+    Currency.bgn,
+  ),
 
   /// Burkina Faso
-  burkinaFaso._("Burkina Faso", "BF", "+226", "🇧🇫"),
+  burkinaFaso._(
+    "Burkina Faso",
+    "BF",
+    "+226",
+    "🇧🇫",
+    Currency.xof,
+  ),
 
   /// Burundi
-  burundi._("Burundi", "BI", "+257", "🇧🇮"),
+  burundi._(
+    "Burundi",
+    "BI",
+    "+257",
+    "🇧🇮",
+    Currency.bif,
+  ),
 
   /// Cambodia
-  cambodia._("Cambodia", "KH", "+855", "🇰🇭"),
+  cambodia._(
+    "Cambodia",
+    "KH",
+    "+855",
+    "🇰🇭",
+    Currency.khr,
+  ),
 
   /// Cameroon
-  cameroon._("Cameroon", "CM", "+237", "🇨🇲"),
+  cameroon._(
+    "Cameroon",
+    "CM",
+    "+237",
+    "🇨🇲",
+    Currency.xaf,
+  ),
 
   /// Canada
-  canada._("Canada", "CA", "+1", "🇨🇦"),
+  canada._(
+    "Canada",
+    "CA",
+    "+1",
+    "🇨🇦",
+    Currency.cad,
+  ),
 
   /// Cape Verde
-  capeVerde._("Cape Verde", "CV", "+238", "🇨🇻"),
+  capeVerde._(
+    "Cape Verde",
+    "CV",
+    "+238",
+    "🇨🇻",
+    Currency.cve,
+  ),
 
   /// Cayman Islands
-  caymanIslands._("Cayman Islands", "KY", "+1345", "🇰🇾"),
+  caymanIslands._(
+    "Cayman Islands",
+    "KY",
+    "+1345",
+    "🇰🇾",
+    Currency.kyd,
+  ),
 
   /// Central African Republic
-  centralAfricanRepublic._("Central African Republic", "CF", "+236", "🇨🇫"),
+  centralAfricanRepublic._(
+    "Central African Republic",
+    "CF",
+    "+236",
+    "🇨🇫",
+    Currency.xaf,
+  ),
 
   /// Chad
-  chad._("Chad", "TD", "+235", "🇹🇩"),
+  chad._(
+    "Chad",
+    "TD",
+    "+235",
+    "🇹🇩",
+    Currency.xaf,
+  ),
 
   /// Chile
-  chile._("Chile", "CL", "+56", "🇨🇱"),
+  chile._(
+    "Chile",
+    "CL",
+    "+56",
+    "🇨🇱",
+    Currency.clp,
+  ),
 
   /// China
-  china._("China", "CN", "+86", "🇨🇳"),
+  china._(
+    "China",
+    "CN",
+    "+86",
+    "🇨🇳",
+    Currency.cny,
+  ),
 
   /// Christmas Island
-  christmasIsland._("Christmas Island", "CX", "+61", "🇨🇽"),
+  christmasIsland._(
+    "Christmas Island",
+    "CX",
+    "+61",
+    "🇨🇽",
+    Currency.aud,
+  ),
 
   /// Cocos Islands
-  cocosIslands._("Cocos Islands", "CC", "+61", "🇨🇨"),
+  cocosIslands._(
+    "Cocos Islands",
+    "CC",
+    "+61",
+    "🇨🇨",
+    Currency.aud,
+  ),
 
   /// Colombia
-  colombia._("Colombia", "CO", "+57", "🇨🇴"),
+  colombia._(
+    "Colombia",
+    "CO",
+    "+57",
+    "🇨🇴",
+    Currency.cop,
+  ),
 
   /// Comoros
-  comoros._("Comoros", "KM", "+269", "🇰🇲"),
+  comoros._(
+    "Comoros",
+    "KM",
+    "+269",
+    "🇰🇲",
+    Currency.kmf,
+  ),
 
   /// Cook Islands
-  cookIslands._("Cook Islands", "CK", "+682", "🇨🇰"),
+  cookIslands._(
+    "Cook Islands",
+    "CK",
+    "+682",
+    "🇨🇰",
+    Currency.nzd,
+  ),
 
   /// Costa Rica
-  costaRica._("Costa Rica", "CR", "+506", "🇨🇷"),
+  costaRica._(
+    "Costa Rica",
+    "CR",
+    "+506",
+    "🇨🇷",
+    Currency.crc,
+  ),
 
   /// Croatia
-  croatia._("Croatia", "HR", "+385", "🇭🇷"),
+  croatia._(
+    "Croatia",
+    "HR",
+    "+385",
+    "🇭🇷",
+    Currency.hrk,
+  ),
 
   /// Cuba
-  cuba._("Cuba", "CU", "+53", "🇨🇺"),
+  cuba._(
+    "Cuba",
+    "CU",
+    "+53",
+    "🇨🇺",
+    Currency.cup,
+  ),
 
   /// Curacao
-  curacao._("Curacao", "CW", "+599", "🇨🇼"),
+  curacao._(
+    "Curacao",
+    "CW",
+    "+599",
+    "🇨🇼",
+    Currency.ang,
+  ),
 
   /// Cyprus
-  cyprus._("Cyprus", "CY", "+357", "🇨🇾"),
+  cyprus._(
+    "Cyprus",
+    "CY",
+    "+357",
+    "🇨🇾",
+    Currency.eur,
+  ),
 
   /// Czech Republic
-  czechRepublic._("Czech Republic", "CZ", "+420", "🇨🇿"),
+  czechRepublic._(
+    "Czech Republic",
+    "CZ",
+    "+420",
+    "🇨🇿",
+    Currency.czk,
+  ),
 
   /// Democratic Republic of the Congo
   democraticRepublicOfTheCongo._(
-      "Democratic Republic of the Congo", "CD", "+243", "🇨🇩"),
+    "Democratic Republic of the Congo",
+    "CD",
+    "+243",
+    "🇨🇩",
+    Currency.cdf,
+  ),
 
   /// Denmark
-  denmark._("Denmark", "DK", "+45", "🇩🇰"),
+  denmark._(
+    "Denmark",
+    "DK",
+    "+45",
+    "🇩🇰",
+    Currency.dkk,
+  ),
 
   /// Djibouti
-  djibouti._("Djibouti", "DJ", "+253", "🇩🇯"),
+  djibouti._(
+    "Djibouti",
+    "DJ",
+    "+253",
+    "🇩🇯",
+    Currency.djf,
+  ),
 
   /// Dominica
-  dominica._("Dominica", "DM", "+1767", "🇩🇲"),
+  dominica._(
+    "Dominica",
+    "DM",
+    "+1767",
+    "🇩🇲",
+    Currency.xcd,
+  ),
 
   /// Dominican Republic
-  dominicanRepublic._("Dominican Republic", "DO", "+1809", "🇩🇴"),
+  dominicanRepublic._(
+    "Dominican Republic",
+    "DO",
+    "+1809",
+    "🇩🇴",
+    Currency.dop,
+  ),
 
   /// Dominican Republic
-  dominicanRepublic1829._("Dominican Republic", "DO", "+1829", "🇩🇴"),
+  dominicanRepublic1829._(
+    "Dominican Republic",
+    "DO",
+    "+1829",
+    "🇩🇴",
+    Currency.dop,
+  ),
 
   /// Dominican Republic
-  dominicanRepublic1849._("Dominican Republic", "DO", "+1849", "🇩🇴"),
+  dominicanRepublic1849._(
+    "Dominican Republic",
+    "DO",
+    "+1849",
+    "🇩🇴",
+    Currency.dop,
+  ),
 
   /// Ecuador
-  ecuador._("Ecuador", "EC", "+593", "🇪🇨"),
+  ecuador._(
+    "Ecuador",
+    "EC",
+    "+593",
+    "🇪🇨",
+    Currency.usd,
+  ),
 
   /// Egypt
-  egypt._("Egypt", "EG", "+20", "🇪🇬"),
+  egypt._(
+    "Egypt",
+    "EG",
+    "+20",
+    "🇪🇬",
+    Currency.egp,
+  ),
 
   /// El Salvador
-  elSalvador._("El Salvador", "SV", "+503", "🇸🇻"),
+  elSalvador._(
+    "El Salvador",
+    "SV",
+    "+503",
+    "🇸🇻",
+    Currency.usd,
+  ),
 
   /// Equatorial Guinea
-  equatorialGuinea._("Equatorial Guinea", "GQ", "+240", "🇬🇶"),
+  equatorialGuinea._(
+    "Equatorial Guinea",
+    "GQ",
+    "+240",
+    "🇬🇶",
+    Currency.xaf,
+  ),
 
   /// Eritrea
-  eritrea._("Eritrea", "ER", "+291", "🇪🇷"),
+  eritrea._(
+    "Eritrea",
+    "ER",
+    "+291",
+    "🇪🇷",
+    Currency.ern,
+  ),
 
   /// Estonia
-  estonia._("Estonia", "EE", "+372", "🇪🇪"),
+  estonia._(
+    "Estonia",
+    "EE",
+    "+372",
+    "🇪🇪",
+    Currency.eur,
+  ),
 
   /// Ethiopia
-  ethiopia._("Ethiopia", "ET", "+251", "🇪🇹"),
+  ethiopia._(
+    "Ethiopia",
+    "ET",
+    "+251",
+    "🇪🇹",
+    Currency.etb,
+  ),
 
   /// Falkland Islands
-  falklandIslands._("Falkland Islands", "FK", "+500", "🇫🇰"),
+  falklandIslands._(
+    "Falkland Islands",
+    "FK",
+    "+500",
+    "🇫🇰",
+    Currency.fkp,
+  ),
 
   /// Faroe Islands
-  faroeIslands._("Faroe Islands", "FO", "+298", "🇫🇴"),
+  faroeIslands._(
+    "Faroe Islands",
+    "FO",
+    "+298",
+    "🇫🇴",
+  ),
 
   /// Fiji
-  fiji._("Fiji", "FJ", "+679", "🇫🇯"),
+  fiji._(
+    "Fiji",
+    "FJ",
+    "+679",
+    "🇫🇯",
+  ),
 
   /// Finland
-  finland._("Finland", "FI", "+358", "🇫🇮"),
+  finland._(
+    "Finland",
+    "FI",
+    "+358",
+    "🇫🇮",
+  ),
 
   /// France
-  france._("France", "FR", "+33", "🇫🇷"),
+  france._(
+    "France",
+    "FR",
+    "+33",
+    "🇫🇷",
+  ),
 
   /// French Guiana
-  frenchGuiana._("French Guiana", "GF", "+594", "🇬🇫"),
+  frenchGuiana._(
+    "French Guiana",
+    "GF",
+    "+594",
+    "🇬🇫",
+  ),
 
   /// French Polynesia
-  frenchPolynesia._("French Polynesia", "PF", "+689", "🇵🇫"),
+  frenchPolynesia._(
+    "French Polynesia",
+    "PF",
+    "+689",
+    "🇵🇫",
+  ),
 
   /// Gabon
-  gabon._("Gabon", "GA", "+241", "🇬🇦"),
+  gabon._(
+    "Gabon",
+    "GA",
+    "+241",
+    "🇬🇦",
+  ),
 
   /// Gambia
-  gambia._("Gambia", "GM", "+220", "🇬🇲"),
+  gambia._(
+    "Gambia",
+    "GM",
+    "+220",
+    "🇬🇲",
+  ),
 
   /// Georgia
-  georgia._("Georgia", "GE", "+995", "🇬🇪"),
+  georgia._(
+    "Georgia",
+    "GE",
+    "+995",
+    "🇬🇪",
+  ),
 
   /// Germany
-  germany._("Germany", "DE", "+49", "🇩🇪"),
+  germany._(
+    "Germany",
+    "DE",
+    "+49",
+    "🇩🇪",
+  ),
 
   /// Ghana
-  ghana._("Ghana", "GH", "+233", "🇬🇭"),
+  ghana._(
+    "Ghana",
+    "GH",
+    "+233",
+    "🇬🇭",
+  ),
 
   /// Gibraltar
-  gibraltar._("Gibraltar", "GI", "+350", "🇬🇮"),
+  gibraltar._(
+    "Gibraltar",
+    "GI",
+    "+350",
+    "🇬🇮",
+  ),
 
   /// Global Mobile Satellite System
   globalMobileSatelliteSystem._(
-      "Global Mobile Satellite System", "GMS", "+881", "🛰"),
+    "Global Mobile Satellite System",
+    "GMS",
+    "+881",
+    "🛰",
+  ),
 
   /// Greece
-  greece._("Greece", "GR", "+30", "🇬🇷"),
+  greece._(
+    "Greece",
+    "GR",
+    "+30",
+    "🇬🇷",
+  ),
 
   /// Greenland
-  greenland._("Greenland", "GL", "+299", "🇬🇱"),
+  greenland._(
+    "Greenland",
+    "GL",
+    "+299",
+    "🇬🇱",
+  ),
 
   /// Grenada
-  grenada._("Grenada", "GD", "+1473", "🇬🇩"),
+  grenada._(
+    "Grenada",
+    "GD",
+    "+1473",
+    "🇬🇩",
+  ),
 
   /// Guadeloupe
-  guadeloupe._("Guadeloupe", "GP", "+590", "🇬🇵"),
+  guadeloupe._(
+    "Guadeloupe",
+    "GP",
+    "+590",
+    "🇬🇵",
+  ),
 
   /// Guam
-  guam._("Guam", "GU", "+1671", "🇬🇺"),
+  guam._(
+    "Guam",
+    "GU",
+    "+1671",
+    "🇬🇺",
+  ),
 
   /// Guatemala
-  guatemala._("Guatemala", "GT", "+502", "🇬🇹"),
+  guatemala._(
+    "Guatemala",
+    "GT",
+    "+502",
+    "🇬🇹",
+  ),
 
   /// Guernsey
-  guernsey._("Guernsey", "GG", "+44", "🇬🇬"),
+  guernsey._(
+    "Guernsey",
+    "GG",
+    "+44",
+    "🇬🇬",
+  ),
 
   /// Guinea
-  guinea._("Guinea", "GN", "+224", "🇬🇳"),
+  guinea._(
+    "Guinea",
+    "GN",
+    "+224",
+    "🇬🇳",
+  ),
 
   /// Guinea-Bissau
-  guineaBissau._("Guinea-Bissau", "GW", "+245", "🇬🇼"),
+  guineaBissau._(
+    "Guinea-Bissau",
+    "GW",
+    "+245",
+    "🇬🇼",
+  ),
 
   /// Guyana
-  guyana._("Guyana", "GY", "+592", "🇬🇾"),
+  guyana._(
+    "Guyana",
+    "GY",
+    "+592",
+    "🇬🇾",
+  ),
 
   /// Haiti
-  haiti._("Haiti", "HT", "+509", "🇭🇹"),
+  haiti._(
+    "Haiti",
+    "HT",
+    "+509",
+    "🇭🇹",
+  ),
 
   /// Honduras
-  honduras._("Honduras", "HN", "+504", "🇭🇳"),
+  honduras._(
+    "Honduras",
+    "HN",
+    "+504",
+    "🇭🇳",
+  ),
 
   /// Hong Kong
-  hongKong._("Hong Kong", "HK", "+852", "🇭🇰"),
+  hongKong._(
+    "Hong Kong",
+    "HK",
+    "+852",
+    "🇭🇰",
+  ),
 
   /// Hungary
-  hungary._("Hungary", "HU", "+36", "🇭🇺"),
+  hungary._(
+    "Hungary",
+    "HU",
+    "+36",
+    "🇭🇺",
+  ),
 
   /// Iceland
-  iceland._("Iceland", "IS", "+354", "🇮🇸"),
+  iceland._(
+    "Iceland",
+    "IS",
+    "+354",
+    "🇮🇸",
+  ),
 
   /// India
-  india._("India", "IN", "+91", "🇮🇳", Currency.inr),
+  india._(
+    "India",
+    "IN",
+    "+91",
+    "🇮🇳",
+    Currency.inr,
+  ),
 
   /// Indonesia
-  indonesia._("Indonesia", "ID", "+62", "🇮🇩"),
+  indonesia._(
+    "Indonesia",
+    "ID",
+    "+62",
+    "🇮🇩",
+  ),
 
   /// Iran
-  iran._("Iran", "IR", "+98", "🇮🇷"),
+  iran._(
+    "Iran",
+    "IR",
+    "+98",
+    "🇮🇷",
+  ),
 
   /// International Networks
-  internationalNetworks._("International Networks", "INT", "+882", "🌍"),
+  internationalNetworks._(
+    "International Networks",
+    "INT",
+    "+882",
+    "🌍",
+  ),
 
   /// International Networks
-  internationalNetworks883._("International Networks", "INT", "+883", "🌍"),
+  internationalNetworks883._(
+    "International Networks",
+    "INT",
+    "+883",
+    "🌍",
+  ),
 
   /// Iraq
-  iraq._("Iraq", "IQ", "+964", "🇮🇶"),
+  iraq._(
+    "Iraq",
+    "IQ",
+    "+964",
+    "🇮🇶",
+  ),
 
   /// Ireland
-  ireland._("Ireland", "IE", "+353", "🇮🇪"),
+  ireland._(
+    "Ireland",
+    "IE",
+    "+353",
+    "🇮🇪",
+  ),
 
   /// Israel
-  israel._("Israel", "IL", "+972", "🇮🇱"),
+  israel._(
+    "Israel",
+    "IL",
+    "+972",
+    "🇮🇱",
+  ),
 
   /// Italy
-  italy._("Italy", "IT", "39", "🇮🇹"),
+  italy._(
+    "Italy",
+    "IT",
+    "39",
+    "🇮🇹",
+  ),
 
   /// Jamaica
-  jamaica._("Jamaica", "JM", "+1876", "🇯🇲"),
+  jamaica._(
+    "Jamaica",
+    "JM",
+    "+1876",
+    "🇯🇲",
+  ),
 
   /// Japan
-  japan._("Japan", "JP", "+81", "🇯🇵"),
+  japan._(
+    "Japan",
+    "JP",
+    "+81",
+    "🇯🇵",
+  ),
 
   /// Jersey
-  jersey._("Jersey", "JE", "+44", "🇯🇪"),
+  jersey._(
+    "Jersey",
+    "JE",
+    "+44",
+    "🇯🇪",
+  ),
 
   /// Jordan
-  jordan._("Jordan", "JO", "+962", "🇯🇴"),
+  jordan._(
+    "Jordan",
+    "JO",
+    "+962",
+    "🇯🇴",
+  ),
 
   /// Kazakhstan
-  kazakhstan._("Kazakhstan", "KZ", "+7", "🇰🇿"),
+  kazakhstan._(
+    "Kazakhstan",
+    "KZ",
+    "+7",
+    "🇰🇿",
+  ),
 
   /// Kenya
-  kenya._("Kenya", "KE", "+254", "🇰🇪"),
+  kenya._(
+    "Kenya",
+    "KE",
+    "+254",
+    "🇰🇪",
+  ),
 
   /// Kiribati
-  kiribati._("Kiribati", "KI", "+686", "🇰🇮"),
+  kiribati._(
+    "Kiribati",
+    "KI",
+    "+686",
+    "🇰🇮",
+  ),
 
   /// Kosovo
-  kosovo._("Kosovo", "XK", "+383", "🇽🇰"),
+  kosovo._(
+    "Kosovo",
+    "XK",
+    "+383",
+    "🇽🇰",
+  ),
 
   /// Kuwait
-  kuwait._("Kuwait", "KW", "+965", "🇰🇼"),
+  kuwait._(
+    "Kuwait",
+    "KW",
+    "+965",
+    "🇰🇼",
+  ),
 
   /// Kyrgyzstan
-  kyrgyzstan._("Kyrgyzstan", "KG", "+996", "🇰🇬"),
+  kyrgyzstan._(
+    "Kyrgyzstan",
+    "KG",
+    "+996",
+    "🇰🇬",
+  ),
 
   /// Laos
-  laos._("Laos", "LA", "+856", "🇱🇦"),
+  laos._(
+    "Laos",
+    "LA",
+    "+856",
+    "🇱🇦",
+  ),
 
   /// Latvia
-  latvia._("Latvia", "LV", "+371", "🇱🇻"),
+  latvia._(
+    "Latvia",
+    "LV",
+    "+371",
+    "🇱🇻",
+  ),
 
   /// Lebanon
-  lebanon._("Lebanon", "LB", "+961", "🇱🇧"),
+  lebanon._(
+    "Lebanon",
+    "LB",
+    "+961",
+    "🇱🇧",
+  ),
 
   /// Lesotho
-  lesotho._("Lesotho", "LS", "+266", "🇱🇸"),
+  lesotho._(
+    "Lesotho",
+    "LS",
+    "+266",
+    "🇱🇸",
+  ),
 
   /// Liberia
-  liberia._("Liberia", "LR", "+231", "🇱🇷"),
+  liberia._(
+    "Liberia",
+    "LR",
+    "+231",
+    "🇱🇷",
+  ),
 
   /// Libya
-  libya._("Libya", "LY", "+218", "🇱🇾"),
+  libya._(
+    "Libya",
+    "LY",
+    "+218",
+    "🇱🇾",
+  ),
 
   /// Liechtenstein
-  liechtenstein._("Liechtenstein", "LI", "+423", "🇱🇮"),
+  liechtenstein._(
+    "Liechtenstein",
+    "LI",
+    "+423",
+    "🇱🇮",
+  ),
 
   /// Lithuania
-  lithuania._("Lithuania", "LT", "+370", "🇱🇹"),
+  lithuania._(
+    "Lithuania",
+    "LT",
+    "+370",
+    "🇱🇹",
+  ),
 
   /// Luxembourg
-  luxembourg._("Luxembourg", "LU", "+352", "🇱🇺"),
+  luxembourg._(
+    "Luxembourg",
+    "LU",
+    "+352",
+    "🇱🇺",
+  ),
 
   /// Macau
-  macau._("Macau", "MO", "+853", "🇲🇴"),
+  macau._(
+    "Macau",
+    "MO",
+    "+853",
+    "🇲🇴",
+  ),
 
   /// Macedonia
-  macedonia._("Macedonia", "MK", "+389", "🇲🇰"),
+  macedonia._(
+    "Macedonia",
+    "MK",
+    "+389",
+    "🇲🇰",
+  ),
 
   /// Madagascar
-  madagascar._("Madagascar", "MG", "+261", "🇲🇬"),
+  madagascar._(
+    "Madagascar",
+    "MG",
+    "+261",
+    "🇲🇬",
+  ),
 
   /// Malawi
-  malawi._("Malawi", "MW", "+265", "🇲🇼"),
+  malawi._(
+    "Malawi",
+    "MW",
+    "+265",
+    "🇲🇼",
+  ),
 
   /// Malaysia
-  malaysia._("Malaysia", "MY", "+60", "🇲🇾"),
+  malaysia._(
+    "Malaysia",
+    "MY",
+    "+60",
+    "🇲🇾",
+  ),
 
   /// Maldives
-  maldives._("Maldives", "MV", "+960", "🇲🇻"),
+  maldives._(
+    "Maldives",
+    "MV",
+    "+960",
+    "🇲🇻",
+  ),
 
   /// Mali
-  mali._("Mali", "ML", "+223", "🇲🇱"),
+  mali._(
+    "Mali",
+    "ML",
+    "+223",
+    "🇲🇱",
+  ),
 
   /// Malta
-  malta._("Malta", "MT", "+356", "🇲🇹"),
+  malta._(
+    "Malta",
+    "MT",
+    "+356",
+    "🇲🇹",
+  ),
 
   /// Marshall Islands
-  marshallIslands._("Marshall Islands", "MH", "+692", "🇲🇭"),
+  marshallIslands._(
+    "Marshall Islands",
+    "MH",
+    "+692",
+    "🇲🇭",
+  ),
 
   /// Martinique
-  martinique._("Martinique", "MQ", "+596", "🇲🇶"),
+  martinique._(
+    "Martinique",
+    "MQ",
+    "+596",
+    "🇲🇶",
+  ),
 
   /// Mauritania
-  mauritania._("Mauritania", "MR", "+222", "🇲🇷"),
+  mauritania._(
+    "Mauritania",
+    "MR",
+    "+222",
+    "🇲🇷",
+  ),
 
   /// Mauritius
-  mauritius._("Mauritius", "MU", "+230", "🇲🇺"),
+  mauritius._(
+    "Mauritius",
+    "MU",
+    "+230",
+    "🇲🇺",
+  ),
 
   /// Mayotte
-  mayotte._("Mayotte", "YT", "+262", "🇾🇹"),
+  mayotte._(
+    "Mayotte",
+    "YT",
+    "+262",
+    "🇾🇹",
+  ),
 
   /// Mexico
-  mexico._("Mexico", "MX", "+52", "🇲🇽"),
+  mexico._(
+    "Mexico",
+    "MX",
+    "+52",
+    "🇲🇽",
+  ),
 
   /// Micronesia
-  micronesia._("Micronesia", "FM", "+691", "🇫🇲"),
+  micronesia._(
+    "Micronesia",
+    "FM",
+    "+691",
+    "🇫🇲",
+  ),
 
   /// Moldova
-  moldova._("Moldova", "MD", "+373", "🇲🇩"),
+  moldova._(
+    "Moldova",
+    "MD",
+    "+373",
+    "🇲🇩",
+  ),
 
   /// Monaco
-  monaco._("Monaco", "MC", "+377", "🇲🇨"),
+  monaco._(
+    "Monaco",
+    "MC",
+    "+377",
+    "🇲🇨",
+  ),
 
   /// Mongolia
-  mongolia._("Mongolia", "MN", "+976", "🇲🇳"),
+  mongolia._(
+    "Mongolia",
+    "MN",
+    "+976",
+    "🇲🇳",
+  ),
 
   /// Montenegro
-  montenegro._("Montenegro", "ME", "+382", "🇲🇪"),
+  montenegro._(
+    "Montenegro",
+    "ME",
+    "+382",
+    "🇲🇪",
+  ),
 
   /// Montserrat
-  montserrat._("Montserrat", "MS", "+1664", "🇲🇸"),
+  montserrat._(
+    "Montserrat",
+    "MS",
+    "+1664",
+    "🇲🇸",
+  ),
 
   /// Morocco
-  morocco._("Morocco", "MA", "+212", "🇲🇦"),
+  morocco._(
+    "Morocco",
+    "MA",
+    "+212",
+    "🇲🇦",
+  ),
 
   /// Mozambique
-  mozambique._("Mozambique", "MZ", "+258", "🇲🇿"),
+  mozambique._(
+    "Mozambique",
+    "MZ",
+    "+258",
+    "🇲🇿",
+  ),
 
   /// Myanmar
-  myanmar._("Myanmar", "MM", "+95", "🇲🇲"),
+  myanmar._(
+    "Myanmar",
+    "MM",
+    "+95",
+    "🇲🇲",
+  ),
 
   /// Namibia
-  namibia._("Namibia", "NA", "+264", "🇳🇦"),
+  namibia._(
+    "Namibia",
+    "NA",
+    "+264",
+    "🇳🇦",
+  ),
 
   /// Nauru
-  nauru._("Nauru", "NR", "+674", "🇳🇷"),
+  nauru._(
+    "Nauru",
+    "NR",
+    "+674",
+    "🇳🇷",
+  ),
 
   /// Nepal
-  nepal._("Nepal", "NP", "+977", "🇳🇵"),
+  nepal._(
+    "Nepal",
+    "NP",
+    "+977",
+    "🇳🇵",
+  ),
 
   /// Netherlands
-  netherlands._("Netherlands", "NL", "+31", "🇳🇱"),
+  netherlands._(
+    "Netherlands",
+    "NL",
+    "+31",
+    "🇳🇱",
+  ),
 
   /// New Caledonia
-  newCaledonia._("New Caledonia", "NC", "+687", "🇳🇨"),
+  newCaledonia._(
+    "New Caledonia",
+    "NC",
+    "+687",
+    "🇳🇨",
+  ),
 
   /// New Zealand
-  newZealand._("New Zealand", "NZ", "+64", "🇳🇿"),
+  newZealand._(
+    "New Zealand",
+    "NZ",
+    "+64",
+    "🇳🇿",
+  ),
 
   /// Nicaragua
-  nicaragua._("Nicaragua", "NI", "+505", "🇳🇮"),
+  nicaragua._(
+    "Nicaragua",
+    "NI",
+    "+505",
+    "🇳🇮",
+  ),
 
   /// Niger
-  niger._("Niger", "NE", "+227", "🇳🇪"),
+  niger._(
+    "Niger",
+    "NE",
+    "+227",
+    "🇳🇪",
+  ),
 
   /// Nigeria
-  nigeria._("Nigeria", "NG", "+234", "🇳🇬"),
+  nigeria._(
+    "Nigeria",
+    "NG",
+    "+234",
+    "🇳🇬",
+  ),
 
   /// Niue
-  niue._("Niue", "NU", "+683", "🇳🇺"),
+  niue._(
+    "Niue",
+    "NU",
+    "+683",
+    "🇳🇺",
+  ),
 
   /// Norfolk Island
-  norfolkIsland._("Norfolk Island", "NF", "+672", "🇳🇫"),
+  norfolkIsland._(
+    "Norfolk Island",
+    "NF",
+    "+672",
+    "🇳🇫",
+  ),
 
   /// North Korea
-  northKorea._("North Korea", "KP", "+850", "🇰🇵"),
+  northKorea._(
+    "North Korea",
+    "KP",
+    "+850",
+    "🇰🇵",
+  ),
 
   /// Northern Mariana Islands
-  northernMarianaIslands._("Northern Mariana Islands", "MP", "+1670", "🇲🇵"),
+  northernMarianaIslands._(
+    "Northern Mariana Islands",
+    "MP",
+    "+1670",
+    "🇲🇵",
+  ),
 
   /// Norway
-  norway._("Norway", "NO", "+47", "🇳🇴"),
+  norway._(
+    "Norway",
+    "NO",
+    "+47",
+    "🇳🇴",
+  ),
 
   /// Oman
-  oman._("Oman", "OM", "+968", "🇴🇲"),
+  oman._(
+    "Oman",
+    "OM",
+    "+968",
+    "🇴🇲",
+  ),
 
   /// Pakistan
-  pakistan._("Pakistan", "PK", "+92", "🇵🇰"),
+  pakistan._(
+    "Pakistan",
+    "PK",
+    "+92",
+    "🇵🇰",
+  ),
 
   /// Palau
-  palau._("Palau", "PW", "+680", "🇵🇼"),
+  palau._(
+    "Palau",
+    "PW",
+    "+680",
+    "🇵🇼",
+  ),
 
   /// Palastinian Territories
-  palastinianTerritories._("Palastinian Territories", "PS", "+970", "🇵🇸"),
+  palastinianTerritories._(
+    "Palastinian Territories",
+    "PS",
+    "+970",
+    "🇵🇸",
+  ),
 
   /// Panama
-  panama._("Panama", "PA", "+507", "🇵🇦"),
+  panama._(
+    "Panama",
+    "PA",
+    "+507",
+    "🇵🇦",
+  ),
 
   /// Papua New Guinea
-  papuaNewGuinea._("Papua New Guinea", "PG", "+675", "🇵🇬"),
+  papuaNewGuinea._(
+    "Papua New Guinea",
+    "PG",
+    "+675",
+    "🇵🇬",
+  ),
 
   /// Paraguay
-  paraguay._("Paraguay", "PY", "+595", "🇵🇾"),
+  paraguay._(
+    "Paraguay",
+    "PY",
+    "+595",
+    "🇵🇾",
+  ),
 
   /// Peru
-  peru._("Peru", "PE", "+51", "🇵🇪"),
+  peru._(
+    "Peru",
+    "PE",
+    "+51",
+    "🇵🇪",
+  ),
 
   /// Philippines
-  philippines._("Philippines", "PH", "+63", "🇵🇭"),
+  philippines._(
+    "Philippines",
+    "PH",
+    "+63",
+    "🇵🇭",
+  ),
 
   /// Pitcairn Islands
-  pitcairnIslands._("Pitcairn Islands", "PN", "+64", "🇵🇳"),
+  pitcairnIslands._(
+    "Pitcairn Islands",
+    "PN",
+    "+64",
+    "🇵🇳",
+  ),
 
   /// Poland
-  poland._("Poland", "PL", "+48", "🇵🇱"),
+  poland._(
+    "Poland",
+    "PL",
+    "+48",
+    "🇵🇱",
+  ),
 
   /// Portugal
-  portugal._("Portugal", "PT", "+351", "🇵🇹"),
+  portugal._(
+    "Portugal",
+    "PT",
+    "+351",
+    "🇵🇹",
+  ),
 
   /// Puerto Rico
-  puertoRico._("Puerto Rico", "PR", "+1787", "🇵🇷"),
+  puertoRico._(
+    "Puerto Rico",
+    "PR",
+    "+1787",
+    "🇵🇷",
+  ),
 
   /// Puerto Rico
-  puertoRico1939._("Puerto Rico", "PR", "+1939", "🇵🇷"),
+  puertoRico1939._(
+    "Puerto Rico",
+    "PR",
+    "+1939",
+    "🇵🇷",
+  ),
 
   /// Qatar
-  qatar._("Qatar", "QA", "+974", "🇶🇦"),
+  qatar._(
+    "Qatar",
+    "QA",
+    "+974",
+    "🇶🇦",
+  ),
 
   /// Republic of the Congo
-  republicOfTheCongo._("Republic of the Congo", "CG", "+242", "🇨🇬"),
+  republicOfTheCongo._(
+    "Republic of the Congo",
+    "CG",
+    "+242",
+    "🇨🇬",
+  ),
 
   /// Réunion
-  reunion._("Réunion", "RE", "+262", "🇷🇪"),
+  reunion._(
+    "Réunion",
+    "RE",
+    "+262",
+    "🇷🇪",
+  ),
 
   /// Romania
-  romania._("Romania", "RO", "+40", "🇷🇴"),
+  romania._(
+    "Romania",
+    "RO",
+    "+40",
+    "🇷🇴",
+  ),
 
   /// Russia
-  russia._("Russia", "RU", "+7", "🇷🇺"),
+  russia._(
+    "Russia",
+    "RU",
+    "+7",
+    "🇷🇺",
+  ),
 
   /// Rwanda
-  rwanda._("Rwanda", "RW", "+250", "🇷🇼"),
+  rwanda._(
+    "Rwanda",
+    "RW",
+    "+250",
+    "🇷🇼",
+  ),
 
   /// Saint Barthélemy
-  saintBarthelemy._("Saint Barthélemy", "BL", "+590", "🇧🇱"),
+  saintBarthelemy._(
+    "Saint Barthélemy",
+    "BL",
+    "+590",
+    "🇧🇱",
+  ),
 
   /// Saint Helena
-  saintHelena._("Saint Helena", "SH", "+290", "🇸🇭"),
+  saintHelena._(
+    "Saint Helena",
+    "SH",
+    "+290",
+    "🇸🇭",
+  ),
 
   /// Saint Helena
-  saintHelena247._("Saint Helena", "SH", "+247", "🇸🇭"),
+  saintHelena247._(
+    "Saint Helena",
+    "SH",
+    "+247",
+    "🇸🇭",
+  ),
 
   /// Saint Kitts and Nevis
-  saintKittsAndNevis._("Saint Kitts and Nevis", "KN", "+1869", "🇰🇳"),
+  saintKittsAndNevis._(
+    "Saint Kitts and Nevis",
+    "KN",
+    "+1869",
+    "🇰🇳",
+  ),
 
   /// Saint Lucia
-  saintLucia._("Saint Lucia", "LC", "+1758", "🇱🇨"),
+  saintLucia._(
+    "Saint Lucia",
+    "LC",
+    "+1758",
+    "🇱🇨",
+  ),
 
   /// Saint Martin
-  saintMartin._("Saint Martin", "MF", "+590", "🇲🇫"),
+  saintMartin._(
+    "Saint Martin",
+    "MF",
+    "+590",
+    "🇲🇫",
+  ),
 
   /// Saint Pierre and Miquelon
-  saintPierreAndMiquelon._("Saint Pierre and Miquelon", "PM", "+508", "🇵🇲"),
+  saintPierreAndMiquelon._(
+    "Saint Pierre and Miquelon",
+    "PM",
+    "+508",
+    "🇵🇲",
+  ),
 
   /// Saint Vincent and the Grenadines
   saintVincentAndTheGrenadines._(
-      "Saint Vincent and the Grenadines", "VC", "+1784", "🇻🇨"),
+    "Saint Vincent and the Grenadines",
+    "VC",
+    "+1784",
+    "🇻🇨",
+  ),
 
   /// Samoa
-  samoa._("Samoa", "WS", "+685", "🇼🇸"),
+  samoa._(
+    "Samoa",
+    "WS",
+    "+685",
+    "🇼🇸",
+  ),
 
   /// San Marino
-  sanMarino._("San Marino", "SM", "+378", "🇸🇲"),
+  sanMarino._(
+    "San Marino",
+    "SM",
+    "+378",
+    "🇸🇲",
+  ),
 
   /// São Tomé and Príncipe
-  saoTomeAndPrincipe._("São Tomé and Príncipe", "ST", "+239", "🇸🇹"),
+  saoTomeAndPrincipe._(
+    "São Tomé and Príncipe",
+    "ST",
+    "+239",
+    "🇸🇹",
+  ),
 
   /// Saudi Arabia
-  saudiArabia._("Saudi Arabia", "SA", "+966", "🇸🇦"),
+  saudiArabia._(
+    "Saudi Arabia",
+    "SA",
+    "+966",
+    "🇸🇦",
+  ),
 
   /// Senegal
-  senegal._("Senegal", "SN", "+221", "🇸🇳"),
+  senegal._(
+    "Senegal",
+    "SN",
+    "+221",
+    "🇸🇳",
+  ),
 
   /// Serbia
-  serbia._("Serbia", "RS", "+381", "🇷🇸"),
+  serbia._(
+    "Serbia",
+    "RS",
+    "+381",
+    "🇷🇸",
+  ),
 
   /// Seychelles
-  seychelles._("Seychelles", "SC", "+248", "🇸🇨"),
+  seychelles._(
+    "Seychelles",
+    "SC",
+    "+248",
+    "🇸🇨",
+  ),
 
   /// Sierra Leone
-  sierraLeone._("Sierra Leone", "SL", "+232", "🇸🇱"),
+  sierraLeone._(
+    "Sierra Leone",
+    "SL",
+    "+232",
+    "🇸🇱",
+  ),
 
   /// Singapore
-  singapore._("Singapore", "SG", "+65", "🇸🇬"),
+  singapore._(
+    "Singapore",
+    "SG",
+    "+65",
+    "🇸🇬",
+  ),
 
   /// Sint Maarten
-  sintMaarten._("Sint Maarten", "SX", "+1721", "🇸🇽"),
+  sintMaarten._(
+    "Sint Maarten",
+    "SX",
+    "+1721",
+    "🇸🇽",
+  ),
 
   /// Slovakia
-  slovakia._("Slovakia", "SK", "+421", "🇸🇰"),
+  slovakia._(
+    "Slovakia",
+    "SK",
+    "+421",
+    "🇸🇰",
+  ),
 
   /// Slovenia
-  slovenia._("Slovenia", "SI", "+386", "🇸🇮"),
+  slovenia._(
+    "Slovenia",
+    "SI",
+    "+386",
+    "🇸🇮",
+  ),
 
   /// Solomon Islands
-  solomonIslands._("Solomon Islands", "SB", "+677", "🇸🇧"),
+  solomonIslands._(
+    "Solomon Islands",
+    "SB",
+    "+677",
+    "🇸🇧",
+  ),
 
   /// Somalia
-  somalia._("Somalia", "SO", "+252", "🇸🇴"),
+  somalia._(
+    "Somalia",
+    "SO",
+    "+252",
+    "🇸🇴",
+  ),
 
   /// South Africa
-  southAfrica._("South Africa", "ZA", "+27", "🇿🇦"),
+  southAfrica._(
+    "South Africa",
+    "ZA",
+    "+27",
+    "🇿🇦",
+  ),
 
   /// South Georgia and the South Sandwich Islands
   southGeorgiaAndTheSouthSandwichIslands._(
-      "South Georgia and the South Sandwich Islands", "GS", "+500", "🇬🇸"),
+    "South Georgia and the South Sandwich Islands",
+    "GS",
+    "+500",
+    "🇬🇸",
+  ),
 
   /// South Korea
-  southKorea._("South Korea", "KR", "+82", "🇰🇷"),
+  southKorea._(
+    "South Korea",
+    "KR",
+    "+82",
+    "🇰🇷",
+  ),
 
   /// South Sudan
-  southSudan._("South Sudan", "SS", "+211", "🇸🇸"),
+  southSudan._(
+    "South Sudan",
+    "SS",
+    "+211",
+    "🇸🇸",
+  ),
 
   /// Spain
-  spain._("Spain", "ES", "+34", "🇪🇸"),
+  spain._(
+    "Spain",
+    "ES",
+    "+34",
+    "🇪🇸",
+  ),
 
   /// Sri Lanka
-  sriLanka._("Sri Lanka", "LK", "+94", "🇱🇰"),
+  sriLanka._(
+    "Sri Lanka",
+    "LK",
+    "+94",
+    "🇱🇰",
+  ),
 
   /// Sudan
-  sudan._("Sudan", "SD", "+249", "🇸🇩"),
+  sudan._(
+    "Sudan",
+    "SD",
+    "+249",
+    "🇸🇩",
+  ),
 
   /// Suriname
-  suriname._("Suriname", "SR", "+597", "🇸🇷"),
+  suriname._(
+    "Suriname",
+    "SR",
+    "+597",
+    "🇸🇷",
+  ),
 
   /// Svalbard and Jan Mayen
-  svalbardAndJanMayen._("Svalbard and Jan Mayen", "SJ", "+47", "🇸🇯"),
+  svalbardAndJanMayen._(
+    "Svalbard and Jan Mayen",
+    "SJ",
+    "+47",
+    "🇸🇯",
+  ),
 
   /// Swaziland
-  swaziland._("Swaziland", "SZ", "+268", "🇸🇿"),
+  swaziland._(
+    "Swaziland",
+    "SZ",
+    "+268",
+    "🇸🇿",
+  ),
 
   /// Sweden
-  sweden._("Sweden", "SE", "+46", "🇸🇪"),
+  sweden._(
+    "Sweden",
+    "SE",
+    "+46",
+    "🇸🇪",
+  ),
 
   /// Switzerland
-  switzerland._("Switzerland", "CH", "+41", "🇨🇭"),
+  switzerland._(
+    "Switzerland",
+    "CH",
+    "+41",
+    "🇨🇭",
+  ),
 
   /// Syria
-  syria._("Syria", "SY", "+963", "🇸🇾"),
+  syria._(
+    "Syria",
+    "SY",
+    "+963",
+    "🇸🇾",
+  ),
 
   /// Taiwan
-  taiwan._("Taiwan", "TW", "+886", "🇹🇼"),
+  taiwan._(
+    "Taiwan",
+    "TW",
+    "+886",
+    "🇹🇼",
+  ),
 
   /// Tajikistan
-  tajikistan._("Tajikistan", "TJ", "+992", "🇹🇯"),
+  tajikistan._(
+    "Tajikistan",
+    "TJ",
+    "+992",
+    "🇹🇯",
+  ),
 
   /// Tanzania
-  tanzania._("Tanzania", "TZ", "+255", "🇹🇿"),
+  tanzania._(
+    "Tanzania",
+    "TZ",
+    "+255",
+    "🇹🇿",
+  ),
 
   /// Thailand
-  thailand._("Thailand", "TH", "+66", "🇹🇭"),
+  thailand._(
+    "Thailand",
+    "TH",
+    "+66",
+    "🇹🇭",
+  ),
 
   /// Timor-Leste
-  timorLeste._("Timor-Leste", "TL", "+670", "🇹🇱"),
+  timorLeste._(
+    "Timor-Leste",
+    "TL",
+    "+670",
+    "🇹🇱",
+  ),
 
   /// Togo
-  togo._("Togo", "TG", "+228", "🇹🇬"),
+  togo._(
+    "Togo",
+    "TG",
+    "+228",
+    "🇹🇬",
+  ),
 
   /// Tokelau
-  tokelau._("Tokelau", "TK", "+690", "🇹🇰"),
+  tokelau._(
+    "Tokelau",
+    "TK",
+    "+690",
+    "🇹🇰",
+  ),
 
   /// Tonga
-  tonga._("Tonga", "TO", "+676", "🇹🇴"),
+  tonga._(
+    "Tonga",
+    "TO",
+    "+676",
+    "🇹🇴",
+  ),
 
   /// Trinidad and Tobago
-  trinidadAndTobago._("Trinidad and Tobago", "TT", "+1868", "🇹🇹"),
+  trinidadAndTobago._(
+    "Trinidad and Tobago",
+    "TT",
+    "+1868",
+    "🇹🇹",
+  ),
 
   /// Tunisia
-  tunisia._("Tunisia", "TN", "+216", "🇹🇳"),
+  tunisia._(
+    "Tunisia",
+    "TN",
+    "+216",
+    "🇹🇳",
+  ),
 
   /// Turkey
-  turkey._("Turkey", "TR", "+90", "🇹🇷"),
+  turkey._(
+    "Turkey",
+    "TR",
+    "+90",
+    "🇹🇷",
+  ),
 
   /// Turkmenistan
-  turkmenistan._("Turkmenistan", "TM", "+993", "🇹🇲"),
+  turkmenistan._(
+    "Turkmenistan",
+    "TM",
+    "+993",
+    "🇹🇲",
+  ),
 
   /// Turks and Caicos Islands
-  turksAndCaicosIslands._("Turks and Caicos Islands", "TC", "+1649", "🇹🇨"),
+  turksAndCaicosIslands._(
+    "Turks and Caicos Islands",
+    "TC",
+    "+1649",
+    "🇹🇨",
+  ),
 
   /// Tuvalu
-  tuvalu._("Tuvalu", "TV", "+688", "🇹🇻"),
+  tuvalu._(
+    "Tuvalu",
+    "TV",
+    "+688",
+    "🇹🇻",
+  ),
 
   /// Uganda
-  uganda._("Uganda", "UG", "+256", "🇺🇬"),
+  uganda._(
+    "Uganda",
+    "UG",
+    "+256",
+    "🇺🇬",
+  ),
 
   /// Ukraine
-  ukraine._("Ukraine", "UA", "+380", "🇺🇦"),
+  ukraine._(
+    "Ukraine",
+    "UA",
+    "+380",
+    "🇺🇦",
+  ),
 
   /// United Arab Emirates
-  unitedArabEmirates._("United Arab Emirates", "AE", "+971", "🇦🇪"),
+  unitedArabEmirates._(
+    "United Arab Emirates",
+    "AE",
+    "+971",
+    "🇦🇪",
+  ),
 
   /// United Kingdom
-  unitedKingdom._("United Kingdom", "GB", "+44", "🇬🇧"),
+  unitedKingdom._(
+    "United Kingdom",
+    "GB",
+    "+44",
+    "🇬🇧",
+  ),
 
   /// United States
-  unitedStates._("United States", "US", "+1", "🇺🇸", Currency.usd),
+  unitedStates._(
+    "United States",
+    "US",
+    "+1",
+    "🇺🇸",
+    Currency.usd,
+  ),
 
   /// Uruguay
-  uruguay._("Uruguay", "UY", "+598", "🇺🇾"),
+  uruguay._(
+    "Uruguay",
+    "UY",
+    "+598",
+    "🇺🇾",
+  ),
 
   /// Uzbekistan
-  uzbekistan._("Uzbekistan", "UZ", "+998", "🇺🇿"),
+  uzbekistan._(
+    "Uzbekistan",
+    "UZ",
+    "+998",
+    "🇺🇿",
+  ),
 
   /// Vanuatu
-  vanuatu._("Vanuatu", "VU", "+678", "🇻🇺"),
+  vanuatu._(
+    "Vanuatu",
+    "VU",
+    "+678",
+    "🇻🇺",
+  ),
 
   /// Venezuela
-  venezuela._("Venezuela", "VE", "+58", "🇻🇪"),
+  venezuela._(
+    "Venezuela",
+    "VE",
+    "+58",
+    "🇻🇪",
+  ),
 
   /// Vietnam
-  vietnam._("Vietnam", "VN", "+84", "🇻🇳"),
+  vietnam._(
+    "Vietnam",
+    "VN",
+    "+84",
+    "🇻🇳",
+  ),
 
   /// Virgin Islands, U.S.
-  virginIslandsUS._("Virgn Islands, U.S.", "VI", "+1340", "🇻🇮"),
+  virginIslandsUS._(
+    "Virgn Islands, U.S.",
+    "VI",
+    "+1340",
+    "🇻🇮",
+  ),
 
   /// Wallis and Futuna
-  wallisAndFutuna._("Wallis and Futuna", "WF", "+681", "🇼🇫"),
+  wallisAndFutuna._(
+    "Wallis and Futuna",
+    "WF",
+    "+681",
+    "🇼🇫",
+  ),
 
   /// Yemen
-  yemen._("Yemen", "YE", "+967", "🇾🇪"),
+  yemen._(
+    "Yemen",
+    "YE",
+    "+967",
+    "🇾🇪",
+  ),
 
   /// Zambia
-  zambia._("Zambia", "ZM", "+260", "🇿🇲"),
+  zambia._(
+    "Zambia",
+    "ZM",
+    "+260",
+    "🇿🇲",
+  ),
 
   /// Zimbabwe
-  zimbabwe._("Zimbabwe", "ZW", "+263", "🇿🇼"),
+  zimbabwe._(
+    "Zimbabwe",
+    "ZW",
+    "+263",
+    "🇿🇼",
+  ),
 
   /// Åland Islands
-  alandIslands._("Åland Islands", "AX", "+358", "🇦🇽"),
+  alandIslands._(
+    "Åland Islands",
+    "AX",
+    "+358",
+    "🇦🇽",
+  ),
   ;
 
   /// Name of the country
