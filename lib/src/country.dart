@@ -629,6 +629,7 @@ enum Country {
     "FO",
     "+298",
     "🇫🇴",
+    Currency.dkk,
   ),
 
   /// Fiji
@@ -637,6 +638,7 @@ enum Country {
     "FJ",
     "+679",
     "🇫🇯",
+    Currency.fjd,
   ),
 
   /// Finland
@@ -645,6 +647,7 @@ enum Country {
     "FI",
     "+358",
     "🇫🇮",
+    Currency.eur,
   ),
 
   /// France
@@ -653,6 +656,7 @@ enum Country {
     "FR",
     "+33",
     "🇫🇷",
+    Currency.eur,
   ),
 
   /// French Guiana
@@ -661,6 +665,7 @@ enum Country {
     "GF",
     "+594",
     "🇬🇫",
+    Currency.eur,
   ),
 
   /// French Polynesia

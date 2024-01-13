@@ -152,6 +152,12 @@ enum Currency {
   /// Falkland Islands Pound
   fkp._("Falkland Islands Pound", "FKP", "FK£"),
 
+  /// Fijian Dollar
+  fjd._("Fijian Dollar", "FJD", "FJ\$"),
+
+  /// Gambian Dalasi
+  gmd._("Gambian Dalasi", "GMD", "D"),
+
   /// Indian Rupee
   inr._("Indian Rupee", "INR", "₹"),
 
