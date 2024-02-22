@@ -674,6 +674,7 @@ enum Country {
     "PF",
     "+689",
     "🇵🇫",
+    Currency.xpf,
   ),
 
   /// Gabon
@@ -682,6 +683,7 @@ enum Country {
     "GA",
     "+241",
     "🇬🇦",
+    Currency.xaf,
   ),
 
   /// Gambia
@@ -690,6 +692,7 @@ enum Country {
     "GM",
     "+220",
     "🇬🇲",
+    Currency.gmd,
   ),
 
   /// Georgia
@@ -698,6 +701,7 @@ enum Country {
     "GE",
     "+995",
     "🇬🇪",
+    Currency.gel,
   ),
 
   /// Germany
@@ -706,6 +710,7 @@ enum Country {
     "DE",
     "+49",
     "🇩🇪",
+    Currency.eur,
   ),
 
   /// Ghana
@@ -714,6 +719,7 @@ enum Country {
     "GH",
     "+233",
     "🇬🇭",
+    Currency.ghs,
   ),
 
   /// Gibraltar
@@ -722,6 +728,7 @@ enum Country {
     "GI",
     "+350",
     "🇬🇮",
+    Currency.gip,
   ),
 
   /// Global Mobile Satellite System
@@ -730,6 +737,7 @@ enum Country {
     "GMS",
     "+881",
     "🛰",
+    Currency.usd,
   ),
 
   /// Greece
@@ -738,6 +746,7 @@ enum Country {
     "GR",
     "+30",
     "🇬🇷",
+    Currency.eur,
   ),
 
   /// Greenland
@@ -746,6 +755,7 @@ enum Country {
     "GL",
     "+299",
     "🇬🇱",
+    Currency.dkk,
   ),
 
   /// Grenada
@@ -754,6 +764,7 @@ enum Country {
     "GD",
     "+1473",
     "🇬🇩",
+    Currency.xcd,
   ),
 
   /// Guadeloupe
@@ -762,6 +773,7 @@ enum Country {
     "GP",
     "+590",
     "🇬🇵",
+    Currency.eur,
   ),
 
   /// Guam
@@ -770,6 +782,7 @@ enum Country {
     "GU",
     "+1671",
     "🇬🇺",
+    Currency.usd,
   ),
 
   /// Guatemala
@@ -778,6 +791,7 @@ enum Country {
     "GT",
     "+502",
     "🇬🇹",
+    Currency.gtq,
   ),
 
   /// Guernsey
@@ -786,6 +800,7 @@ enum Country {
     "GG",
     "+44",
     "🇬🇬",
+    Currency.ggp,
   ),
 
   /// Guinea

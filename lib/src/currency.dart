@@ -166,6 +166,24 @@ enum Currency {
 
   /// Euro
   eur._("Euro", "EUR", "€"),
+
+  /// CFP Franc
+  xpf._("CFP Franc", "XPF", "F"),
+
+  /// Georgian Lari
+  gel._("Georgian Lari", "GEL", "₾"),
+
+  /// Ghanaian Cedi
+  ghs._("Ghanaian Cedi", "GHS", "GH₵"),
+
+  /// Gibraltar Pound
+  gip._("Gibraltar Pound", "GIP", "£"),
+
+  /// Guatemalan Quetzal
+  gtq._("Guatemalan Quetzal", "GTQ", "GTQ"),
+
+  /// Guernsey Pound
+  ggp._("Guernsey Pound", "GGP", "£"),
   ;
 
   /// The name of the currency.
