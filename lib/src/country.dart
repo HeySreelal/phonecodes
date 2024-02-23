@@ -1727,6 +1727,7 @@ enum Country {
     "SM",
     "+378",
     "🇸🇲",
+    Currency.eur,
   ),
 
   /// São Tomé and Príncipe
@@ -1852,6 +1853,7 @@ enum Country {
     "GS",
     "+500",
     "🇬🇸",
+    Currency.gbp,
   ),
 
   /// South Korea
@@ -2243,16 +2245,16 @@ enum Country {
   /// The [Currency] of the country
   ///
   /// Returns null if the country is not supported
-  final Currency? currency;
+  final Currency currency;
 
   /// Internal constructor
   const Country._(
     this.name,
     this.code,
     this.dialCode,
-    this.flag, [
+    this.flag,
     this.currency,
-  ]);
+  );
 
   /// Returns the country name
   @override
