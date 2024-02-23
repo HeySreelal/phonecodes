@@ -44,4 +44,23 @@ class Countries {
 
   /// List of all countries
   static const List<Country> _list = Country.values;
+
+  /// Returns a list of countries that match the given filter
+  List<Country> operator [](Filter filter) {
+    return _list
+        .where(
+          (country) =>
+              country.name.toLowerCase().contains(filter.name!.toLowerCase()) ||
+              country.code.toLowerCase().contains(filter.code!.toLowerCase()) ||
+              country.dialCode
+                  .toLowerCase()
+                  .contains(filter.dialCode!.toLowerCase()),
+        )
+        .toList();
+  }
+
+  /// Find matching countries the given filter, returns list of countries
+  List<Country>? findBy(Filter filter) {
+    return this[filter];
+  }
 }
