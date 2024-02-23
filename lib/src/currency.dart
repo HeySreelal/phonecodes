@@ -1,4 +1,4 @@
-part of phonecodes;
+part of '../phonecodes.dart';
 
 /// Currency enum represents the currency of a country.
 enum Currency {
