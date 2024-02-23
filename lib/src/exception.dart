@@ -6,7 +6,7 @@ class CountryNotFoundException implements Exception {
   final String code;
 
   /// Creates a new CountryNotFoundException instance
-  CountryNotFoundException(this.code);
+  const CountryNotFoundException(this.code);
 
   @override
   String toString() {
@@ -20,7 +20,7 @@ class CurrencyException implements Exception {
   final String reason;
 
   /// Creates a new CurrencyNotFoundException instance
-  CurrencyException(this.reason);
+  const CurrencyException(this.reason);
 
   @override
   String toString() {
