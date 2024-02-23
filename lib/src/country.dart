@@ -1142,6 +1142,7 @@ enum Country {
     "MK",
     "+389",
     "🇲🇰",
+    Currency.mkd,
   ),
 
   /// Madagascar
@@ -1150,6 +1151,7 @@ enum Country {
     "MG",
     "+261",
     "🇲🇬",
+    Currency.mga,
   ),
 
   /// Malawi
@@ -1158,6 +1160,7 @@ enum Country {
     "MW",
     "+265",
     "🇲🇼",
+    Currency.mwk,
   ),
 
   /// Malaysia
@@ -1166,6 +1169,7 @@ enum Country {
     "MY",
     "+60",
     "🇲🇾",
+    Currency.myr,
   ),
 
   /// Maldives
@@ -1174,6 +1178,7 @@ enum Country {
     "MV",
     "+960",
     "🇲🇻",
+    Currency.mvr,
   ),
 
   /// Mali
@@ -1182,6 +1187,7 @@ enum Country {
     "ML",
     "+223",
     "🇲🇱",
+    Currency.xof,
   ),
 
   /// Malta
@@ -1190,6 +1196,7 @@ enum Country {
     "MT",
     "+356",
     "🇲🇹",
+    Currency.eur,
   ),
 
   /// Marshall Islands
@@ -1198,6 +1205,7 @@ enum Country {
     "MH",
     "+692",
     "🇲🇭",
+    Currency.usd,
   ),
 
   /// Martinique
@@ -1206,6 +1214,7 @@ enum Country {
     "MQ",
     "+596",
     "🇲🇶",
+    Currency.eur,
   ),
 
   /// Mauritania
@@ -1214,6 +1223,7 @@ enum Country {
     "MR",
     "+222",
     "🇲🇷",
+    Currency.mru,
   ),
 
   /// Mauritius
@@ -1222,6 +1232,7 @@ enum Country {
     "MU",
     "+230",
     "🇲🇺",
+    Currency.mur,
   ),
 
   /// Mayotte
@@ -1230,6 +1241,7 @@ enum Country {
     "YT",
     "+262",
     "🇾🇹",
+    Currency.eur,
   ),
 
   /// Mexico
@@ -1238,6 +1250,7 @@ enum Country {
     "MX",
     "+52",
     "🇲🇽",
+    Currency.mxn,
   ),
 
   /// Micronesia
@@ -1246,6 +1259,7 @@ enum Country {
     "FM",
     "+691",
     "🇫🇲",
+    Currency.usd,
   ),
 
   /// Moldova
@@ -1254,6 +1268,7 @@ enum Country {
     "MD",
     "+373",
     "🇲🇩",
+    Currency.mdl,
   ),
 
   /// Monaco
@@ -1262,6 +1277,7 @@ enum Country {
     "MC",
     "+377",
     "🇲🇨",
+    Currency.eur,
   ),
 
   /// Mongolia
@@ -1270,6 +1286,7 @@ enum Country {
     "MN",
     "+976",
     "🇲🇳",
+    Currency.mnt,
   ),
 
   /// Montenegro
@@ -1278,6 +1295,7 @@ enum Country {
     "ME",
     "+382",
     "🇲🇪",
+    Currency.eur,
   ),
 
   /// Montserrat
@@ -1286,6 +1304,7 @@ enum Country {
     "MS",
     "+1664",
     "🇲🇸",
+    Currency.xcd,
   ),
 
   /// Morocco
@@ -1294,6 +1313,7 @@ enum Country {
     "MA",
     "+212",
     "🇲🇦",
+    Currency.mad,
   ),
 
   /// Mozambique
@@ -1302,6 +1322,7 @@ enum Country {
     "MZ",
     "+258",
     "🇲🇿",
+    Currency.mzn,
   ),
 
   /// Myanmar
@@ -1310,6 +1331,7 @@ enum Country {
     "MM",
     "+95",
     "🇲🇲",
+    Currency.mmk,
   ),
 
   /// Namibia
@@ -1318,6 +1340,7 @@ enum Country {
     "NA",
     "+264",
     "🇳🇦",
+    Currency.nad,
   ),
 
   /// Nauru
@@ -1326,6 +1349,7 @@ enum Country {
     "NR",
     "+674",
     "🇳🇷",
+    Currency.usd,
   ),
 
   /// Nepal
@@ -1334,6 +1358,7 @@ enum Country {
     "NP",
     "+977",
     "🇳🇵",
+    Currency.npr,
   ),
 
   /// Netherlands
@@ -1342,6 +1367,7 @@ enum Country {
     "NL",
     "+31",
     "🇳🇱",
+    Currency.eur,
   ),
 
   /// New Caledonia
@@ -1350,6 +1376,7 @@ enum Country {
     "NC",
     "+687",
     "🇳🇨",
+    Currency.xpf,
   ),
 
   /// New Zealand
@@ -1358,6 +1385,7 @@ enum Country {
     "NZ",
     "+64",
     "🇳🇿",
+    Currency.nzd,
   ),
 
   /// Nicaragua
@@ -1366,6 +1394,7 @@ enum Country {
     "NI",
     "+505",
     "🇳🇮",
+    Currency.nio,
   ),
 
   /// Niger
@@ -1374,6 +1403,7 @@ enum Country {
     "NE",
     "+227",
     "🇳🇪",
+    Currency.xof,
   ),
 
   /// Nigeria
@@ -1382,6 +1412,7 @@ enum Country {
     "NG",
     "+234",
     "🇳🇬",
+    Currency.ngn,
   ),
 
   /// Niue
@@ -1390,6 +1421,7 @@ enum Country {
     "NU",
     "+683",
     "🇳🇺",
+    Currency.nzd,
   ),
 
   /// Norfolk Island
@@ -1398,6 +1430,7 @@ enum Country {
     "NF",
     "+672",
     "🇳🇫",
+    Currency.aud,
   ),
 
   /// North Korea
@@ -1406,6 +1439,7 @@ enum Country {
     "KP",
     "+850",
     "🇰🇵",
+    Currency.kpw,
   ),
 
   /// Northern Mariana Islands
@@ -1414,6 +1448,7 @@ enum Country {
     "MP",
     "+1670",
     "🇲🇵",
+    Currency.usd,
   ),
 
   /// Norway
@@ -1422,6 +1457,7 @@ enum Country {
     "NO",
     "+47",
     "🇳🇴",
+    Currency.nok,
   ),
 
   /// Oman
@@ -1430,6 +1466,7 @@ enum Country {
     "OM",
     "+968",
     "🇴🇲",
+    Currency.omr,
   ),
 
   /// Pakistan
@@ -1438,6 +1475,7 @@ enum Country {
     "PK",
     "+92",
     "🇵🇰",
+    Currency.pkr,
   ),
 
   /// Palau
@@ -1446,6 +1484,7 @@ enum Country {
     "PW",
     "+680",
     "🇵🇼",
+    Currency.usd,
   ),
 
   /// Palastinian Territories
@@ -1454,6 +1493,7 @@ enum Country {
     "PS",
     "+970",
     "🇵🇸",
+    Currency.ils,
   ),
 
   /// Panama
@@ -1462,6 +1502,7 @@ enum Country {
     "PA",
     "+507",
     "🇵🇦",
+    Currency.usd,
   ),
 
   /// Papua New Guinea
@@ -1470,6 +1511,7 @@ enum Country {
     "PG",
     "+675",
     "🇵🇬",
+    Currency.pgk,
   ),
 
   /// Paraguay
@@ -1478,6 +1520,7 @@ enum Country {
     "PY",
     "+595",
     "🇵🇾",
+    Currency.pyg,
   ),
 
   /// Peru
@@ -1486,6 +1529,7 @@ enum Country {
     "PE",
     "+51",
     "🇵🇪",
+    Currency.pen,
   ),
 
   /// Philippines
@@ -1494,6 +1538,7 @@ enum Country {
     "PH",
     "+63",
     "🇵🇭",
+    Currency.php,
   ),
 
   /// Pitcairn Islands
@@ -1502,6 +1547,7 @@ enum Country {
     "PN",
     "+64",
     "🇵🇳",
+    Currency.nzd,
   ),
 
   /// Poland
@@ -1510,6 +1556,7 @@ enum Country {
     "PL",
     "+48",
     "🇵🇱",
+    Currency.pln,
   ),
 
   /// Portugal
@@ -1518,6 +1565,7 @@ enum Country {
     "PT",
     "+351",
     "🇵🇹",
+    Currency.eur,
   ),
 
   /// Puerto Rico
@@ -1526,6 +1574,7 @@ enum Country {
     "PR",
     "+1787",
     "🇵🇷",
+    Currency.usd,
   ),
 
   /// Puerto Rico
@@ -1534,6 +1583,7 @@ enum Country {
     "PR",
     "+1939",
     "🇵🇷",
+    Currency.usd,
   ),
 
   /// Qatar
@@ -1542,6 +1592,7 @@ enum Country {
     "QA",
     "+974",
     "🇶🇦",
+    Currency.qar,
   ),
 
   /// Republic of the Congo
@@ -1550,6 +1601,7 @@ enum Country {
     "CG",
     "+242",
     "🇨🇬",
+    Currency.xaf,
   ),
 
   /// Réunion
@@ -1558,6 +1610,7 @@ enum Country {
     "RE",
     "+262",
     "🇷🇪",
+    Currency.eur,
   ),
 
   /// Romania
@@ -1566,6 +1619,7 @@ enum Country {
     "RO",
     "+40",
     "🇷🇴",
+    Currency.ron,
   ),
 
   /// Russia
@@ -1574,6 +1628,7 @@ enum Country {
     "RU",
     "+7",
     "🇷🇺",
+    Currency.rub,
   ),
 
   /// Rwanda
@@ -1582,6 +1637,7 @@ enum Country {
     "RW",
     "+250",
     "🇷🇼",
+    Currency.rwf,
   ),
 
   /// Saint Barthélemy
@@ -1590,6 +1646,7 @@ enum Country {
     "BL",
     "+590",
     "🇧🇱",
+    Currency.eur,
   ),
 
   /// Saint Helena
@@ -1598,6 +1655,7 @@ enum Country {
     "SH",
     "+290",
     "🇸🇭",
+    Currency.shp,
   ),
 
   /// Saint Helena
@@ -1606,6 +1664,7 @@ enum Country {
     "SH",
     "+247",
     "🇸🇭",
+    Currency.shp,
   ),
 
   /// Saint Kitts and Nevis
@@ -1614,6 +1673,7 @@ enum Country {
     "KN",
     "+1869",
     "🇰🇳",
+    Currency.xcd,
   ),
 
   /// Saint Lucia
@@ -1622,6 +1682,7 @@ enum Country {
     "LC",
     "+1758",
     "🇱🇨",
+    Currency.xcd,
   ),
 
   /// Saint Martin
@@ -1630,6 +1691,7 @@ enum Country {
     "MF",
     "+590",
     "🇲🇫",
+    Currency.eur,
   ),
 
   /// Saint Pierre and Miquelon
@@ -1638,6 +1700,7 @@ enum Country {
     "PM",
     "+508",
     "🇵🇲",
+    Currency.eur,
   ),
 
   /// Saint Vincent and the Grenadines
@@ -1646,6 +1709,7 @@ enum Country {
     "VC",
     "+1784",
     "🇻🇨",
+    Currency.xcd,
   ),
 
   /// Samoa
@@ -1654,6 +1718,7 @@ enum Country {
     "WS",
     "+685",
     "🇼🇸",
+    Currency.wst,
   ),
 
   /// San Marino
@@ -1670,6 +1735,7 @@ enum Country {
     "ST",
     "+239",
     "🇸🇹",
+    Currency.std,
   ),
 
   /// Saudi Arabia
@@ -1678,6 +1744,7 @@ enum Country {
     "SA",
     "+966",
     "🇸🇦",
+    Currency.sar,
   ),
 
   /// Senegal
@@ -1686,6 +1753,7 @@ enum Country {
     "SN",
     "+221",
     "🇸🇳",
+    Currency.xof,
   ),
 
   /// Serbia
@@ -1694,6 +1762,7 @@ enum Country {
     "RS",
     "+381",
     "🇷🇸",
+    Currency.rsd,
   ),
 
   /// Seychelles
@@ -1702,6 +1771,7 @@ enum Country {
     "SC",
     "+248",
     "🇸🇨",
+    Currency.scr,
   ),
 
   /// Sierra Leone
@@ -1710,6 +1780,7 @@ enum Country {
     "SL",
     "+232",
     "🇸🇱",
+    Currency.sll,
   ),
 
   /// Singapore
@@ -1718,6 +1789,7 @@ enum Country {
     "SG",
     "+65",
     "🇸🇬",
+    Currency.sgd,
   ),
 
   /// Sint Maarten
@@ -1726,6 +1798,7 @@ enum Country {
     "SX",
     "+1721",
     "🇸🇽",
+    Currency.ang,
   ),
 
   /// Slovakia
@@ -1734,6 +1807,7 @@ enum Country {
     "SK",
     "+421",
     "🇸🇰",
+    Currency.eur,
   ),
 
   /// Slovenia
@@ -1742,6 +1816,7 @@ enum Country {
     "SI",
     "+386",
     "🇸🇮",
+    Currency.eur,
   ),
 
   /// Solomon Islands
@@ -1750,6 +1825,7 @@ enum Country {
     "SB",
     "+677",
     "🇸🇧",
+    Currency.sbd,
   ),
 
   /// Somalia
@@ -1758,6 +1834,7 @@ enum Country {
     "SO",
     "+252",
     "🇸🇴",
+    Currency.sos,
   ),
 
   /// South Africa
@@ -1766,6 +1843,7 @@ enum Country {
     "ZA",
     "+27",
     "🇿🇦",
+    Currency.zar,
   ),
 
   /// South Georgia and the South Sandwich Islands
@@ -1782,6 +1860,7 @@ enum Country {
     "KR",
     "+82",
     "🇰🇷",
+    Currency.krw,
   ),
 
   /// South Sudan
@@ -1790,6 +1869,7 @@ enum Country {
     "SS",
     "+211",
     "🇸🇸",
+    Currency.ssp,
   ),
 
   /// Spain
@@ -1798,6 +1878,7 @@ enum Country {
     "ES",
     "+34",
     "🇪🇸",
+    Currency.eur,
   ),
 
   /// Sri Lanka
@@ -1806,6 +1887,7 @@ enum Country {
     "LK",
     "+94",
     "🇱🇰",
+    Currency.lkr,
   ),
 
   /// Sudan
@@ -1814,6 +1896,7 @@ enum Country {
     "SD",
     "+249",
     "🇸🇩",
+    Currency.sdg,
   ),
 
   /// Suriname
@@ -1822,6 +1905,7 @@ enum Country {
     "SR",
     "+597",
     "🇸🇷",
+    Currency.srd,
   ),
 
   /// Svalbard and Jan Mayen
@@ -1830,6 +1914,7 @@ enum Country {
     "SJ",
     "+47",
     "🇸🇯",
+    Currency.nok,
   ),
 
   /// Swaziland
@@ -1838,6 +1923,7 @@ enum Country {
     "SZ",
     "+268",
     "🇸🇿",
+    Currency.szl,
   ),
 
   /// Sweden
@@ -1846,6 +1932,7 @@ enum Country {
     "SE",
     "+46",
     "🇸🇪",
+    Currency.sek,
   ),
 
   /// Switzerland
@@ -1854,6 +1941,7 @@ enum Country {
     "CH",
     "+41",
     "🇨🇭",
+    Currency.chf,
   ),
 
   /// Syria
@@ -1862,6 +1950,7 @@ enum Country {
     "SY",
     "+963",
     "🇸🇾",
+    Currency.syp,
   ),
 
   /// Taiwan
@@ -1870,6 +1959,7 @@ enum Country {
     "TW",
     "+886",
     "🇹🇼",
+    Currency.twd,
   ),
 
   /// Tajikistan
@@ -1878,6 +1968,7 @@ enum Country {
     "TJ",
     "+992",
     "🇹🇯",
+    Currency.tjs,
   ),
 
   /// Tanzania
@@ -1886,6 +1977,7 @@ enum Country {
     "TZ",
     "+255",
     "🇹🇿",
+    Currency.tzs,
   ),
 
   /// Thailand
@@ -1894,6 +1986,7 @@ enum Country {
     "TH",
     "+66",
     "🇹🇭",
+    Currency.thb,
   ),
 
   /// Timor-Leste
@@ -1902,6 +1995,7 @@ enum Country {
     "TL",
     "+670",
     "🇹🇱",
+    Currency.usd,
   ),
 
   /// Togo
@@ -1910,6 +2004,7 @@ enum Country {
     "TG",
     "+228",
     "🇹🇬",
+    Currency.xof,
   ),
 
   /// Tokelau
@@ -1918,6 +2013,7 @@ enum Country {
     "TK",
     "+690",
     "🇹🇰",
+    Currency.nzd,
   ),
 
   /// Tonga
@@ -1926,6 +2022,7 @@ enum Country {
     "TO",
     "+676",
     "🇹🇴",
+    Currency.top,
   ),
 
   /// Trinidad and Tobago
@@ -1934,6 +2031,7 @@ enum Country {
     "TT",
     "+1868",
     "🇹🇹",
+    Currency.ttd,
   ),
 
   /// Tunisia
@@ -1942,6 +2040,7 @@ enum Country {
     "TN",
     "+216",
     "🇹🇳",
+    Currency.tnd,
   ),
 
   /// Turkey
@@ -1950,6 +2049,7 @@ enum Country {
     "TR",
     "+90",
     "🇹🇷",
+    Currency.try_,
   ),
 
   /// Turkmenistan
@@ -1958,6 +2058,7 @@ enum Country {
     "TM",
     "+993",
     "🇹🇲",
+    Currency.tmt,
   ),
 
   /// Turks and Caicos Islands
@@ -1966,6 +2067,7 @@ enum Country {
     "TC",
     "+1649",
     "🇹🇨",
+    Currency.usd,
   ),
 
   /// Tuvalu
@@ -1974,6 +2076,7 @@ enum Country {
     "TV",
     "+688",
     "🇹🇻",
+    Currency.usd,
   ),
 
   /// Uganda
@@ -1982,6 +2085,7 @@ enum Country {
     "UG",
     "+256",
     "🇺🇬",
+    Currency.ugx,
   ),
 
   /// Ukraine
@@ -1990,6 +2094,7 @@ enum Country {
     "UA",
     "+380",
     "🇺🇦",
+    Currency.uah,
   ),
 
   /// United Arab Emirates
@@ -1998,6 +2103,7 @@ enum Country {
     "AE",
     "+971",
     "🇦🇪",
+    Currency.aed,
   ),
 
   /// United Kingdom
@@ -2006,6 +2112,7 @@ enum Country {
     "GB",
     "+44",
     "🇬🇧",
+    Currency.gbp,
   ),
 
   /// United States
@@ -2023,6 +2130,7 @@ enum Country {
     "UY",
     "+598",
     "🇺🇾",
+    Currency.uyu,
   ),
 
   /// Uzbekistan
@@ -2031,6 +2139,7 @@ enum Country {
     "UZ",
     "+998",
     "🇺🇿",
+    Currency.uzs,
   ),
 
   /// Vanuatu
@@ -2039,6 +2148,7 @@ enum Country {
     "VU",
     "+678",
     "🇻🇺",
+    Currency.vuv,
   ),
 
   /// Venezuela
@@ -2047,6 +2157,7 @@ enum Country {
     "VE",
     "+58",
     "🇻🇪",
+    Currency.ves,
   ),
 
   /// Vietnam
@@ -2055,6 +2166,7 @@ enum Country {
     "VN",
     "+84",
     "🇻🇳",
+    Currency.vnd,
   ),
 
   /// Virgin Islands, U.S.
@@ -2063,6 +2175,7 @@ enum Country {
     "VI",
     "+1340",
     "🇻🇮",
+    Currency.usd,
   ),
 
   /// Wallis and Futuna
@@ -2071,6 +2184,7 @@ enum Country {
     "WF",
     "+681",
     "🇼🇫",
+    Currency.xpf,
   ),
 
   /// Yemen
@@ -2079,6 +2193,7 @@ enum Country {
     "YE",
     "+967",
     "🇾🇪",
+    Currency.yer,
   ),
 
   /// Zambia
@@ -2087,6 +2202,7 @@ enum Country {
     "ZM",
     "+260",
     "🇿🇲",
+    Currency.zmw,
   ),
 
   /// Zimbabwe
@@ -2095,6 +2211,7 @@ enum Country {
     "ZW",
     "+263",
     "🇿🇼",
+    Currency.zwl,
   ),
 
   /// Åland Islands
@@ -2103,6 +2220,7 @@ enum Country {
     "AX",
     "+358",
     "🇦🇽",
+    Currency.eur,
   ),
   ;
 
