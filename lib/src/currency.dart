@@ -184,6 +184,84 @@ enum Currency {
 
   /// Guernsey Pound
   ggp._("Guernsey Pound", "GGP", "£"),
+
+  /// Guinean Franc
+  gnf._("Guinean Franc", "GNF", "FG"),
+
+  /// Guyanaese Dollar
+  gyd._("Guyanaese Dollar", "GYD", "G\$"),
+
+  /// Haitian Gourde
+  htg._("Haitian Gourde", "HTG", "G"),
+
+  /// Honduran Lempira
+  hnl._("Honduran Lempira", "HNL", "L"),
+
+  /// Hong Kong Dollar
+  hkd._("Hong Kong Dollar", "HKD", "HK\$"),
+
+  /// Hungarian Forint
+  huf._("Hungarian Forint", "HUF", "Ft"),
+
+  /// Icelandic Króna
+  isk._("Icelandic Króna", "ISK", "kr"),
+
+  /// Indonesian Rupiah
+  idr._("Indonesian Rupiah", "IDR", "Rp"),
+
+  /// Iranian Rial
+  irr._("Iranian Rial", "IRR", "﷼"),
+
+  /// Iraqi Dinar
+  iqd._("Iraqi Dinar", "IQD", "د.ع"),
+
+  /// Israeli shekel
+  ils._("Israeli shekel", "ILS", "₪"),
+
+  /// Jamaican Dollar
+  jmd._("Jamaican Dollar", "JMD", "J\$"),
+
+  /// Japanese Yen
+  jpy._("Japanese Yen", "JPY", "¥"),
+
+  /// Jersey Pound
+  jep._("Jersey Pound", "JEP", "£"),
+
+  /// Jordanian Dinar
+  jod._("Jordanian Dinar", "JOD", "د.ا"),
+
+  /// Kazakhstani Tenge
+  kzt._("Kazakhstani Tenge", "KZT", "₸"),
+
+  /// Kenyan Shilling
+  kes._("Kenyan Shilling", "KES", "Ksh"),
+
+  /// Kuwaiti Dinar
+  kwd._("Kuwaiti Dinar", "KWD", "د.ك"),
+
+  /// Kyrgystani Som
+  kgs._("Kyrgystani Som", "KGS", "сом"),
+
+  /// Laotian Kip
+  lak._("Laotian Kip", "LAK", "₭"),
+
+  /// Lebanese Pound
+  lbp._("Lebanese Pound", "LBP", "ل.ل"),
+
+  /// Lesotho Loti
+  lsl._("Lesotho Loti", "LSL", "M"),
+
+  /// Liberian Dollar
+  lrd._("Liberian Dollar", "LRD", "L\$"),
+
+  /// Libyan Dinar
+  lyd._("Libyan Dinar", "LYD", "ل.د"),
+
+  /// Swiss Franc
+  chf._("Swiss Franc", "CHF", "CHF"),
+
+  /// Macanese Pataca
+  mop._("Macanese Pataca", "MOP", "MOP\$"),
   ;
 
   /// The name of the currency.

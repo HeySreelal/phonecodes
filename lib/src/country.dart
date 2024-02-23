@@ -809,6 +809,7 @@ enum Country {
     "GN",
     "+224",
     "🇬🇳",
+    Currency.gnf,
   ),
 
   /// Guinea-Bissau
@@ -817,6 +818,7 @@ enum Country {
     "GW",
     "+245",
     "🇬🇼",
+    Currency.xof,
   ),
 
   /// Guyana
@@ -825,6 +827,7 @@ enum Country {
     "GY",
     "+592",
     "🇬🇾",
+    Currency.gyd,
   ),
 
   /// Haiti
@@ -833,6 +836,7 @@ enum Country {
     "HT",
     "+509",
     "🇭🇹",
+    Currency.htg,
   ),
 
   /// Honduras
@@ -841,6 +845,7 @@ enum Country {
     "HN",
     "+504",
     "🇭🇳",
+    Currency.hnl,
   ),
 
   /// Hong Kong
@@ -849,6 +854,7 @@ enum Country {
     "HK",
     "+852",
     "🇭🇰",
+    Currency.hkd,
   ),
 
   /// Hungary
@@ -857,6 +863,7 @@ enum Country {
     "HU",
     "+36",
     "🇭🇺",
+    Currency.huf,
   ),
 
   /// Iceland
@@ -865,6 +872,7 @@ enum Country {
     "IS",
     "+354",
     "🇮🇸",
+    Currency.isk,
   ),
 
   /// India
@@ -882,6 +890,7 @@ enum Country {
     "ID",
     "+62",
     "🇮🇩",
+    Currency.idr,
   ),
 
   /// Iran
@@ -890,6 +899,7 @@ enum Country {
     "IR",
     "+98",
     "🇮🇷",
+    Currency.irr,
   ),
 
   /// International Networks
@@ -898,6 +908,7 @@ enum Country {
     "INT",
     "+882",
     "🌍",
+    Currency.usd,
   ),
 
   /// International Networks
@@ -906,6 +917,7 @@ enum Country {
     "INT",
     "+883",
     "🌍",
+    Currency.usd,
   ),
 
   /// Iraq
@@ -914,6 +926,7 @@ enum Country {
     "IQ",
     "+964",
     "🇮🇶",
+    Currency.iqd,
   ),
 
   /// Ireland
@@ -922,6 +935,7 @@ enum Country {
     "IE",
     "+353",
     "🇮🇪",
+    Currency.eur,
   ),
 
   /// Israel
@@ -930,6 +944,7 @@ enum Country {
     "IL",
     "+972",
     "🇮🇱",
+    Currency.ils,
   ),
 
   /// Italy
@@ -938,6 +953,7 @@ enum Country {
     "IT",
     "39",
     "🇮🇹",
+    Currency.eur,
   ),
 
   /// Jamaica
@@ -946,6 +962,7 @@ enum Country {
     "JM",
     "+1876",
     "🇯🇲",
+    Currency.jmd,
   ),
 
   /// Japan
@@ -954,6 +971,7 @@ enum Country {
     "JP",
     "+81",
     "🇯🇵",
+    Currency.jpy,
   ),
 
   /// Jersey
@@ -962,6 +980,7 @@ enum Country {
     "JE",
     "+44",
     "🇯🇪",
+    Currency.jep,
   ),
 
   /// Jordan
@@ -970,6 +989,7 @@ enum Country {
     "JO",
     "+962",
     "🇯🇴",
+    Currency.jod,
   ),
 
   /// Kazakhstan
@@ -978,6 +998,7 @@ enum Country {
     "KZ",
     "+7",
     "🇰🇿",
+    Currency.kzt,
   ),
 
   /// Kenya
@@ -986,6 +1007,7 @@ enum Country {
     "KE",
     "+254",
     "🇰🇪",
+    Currency.kes,
   ),
 
   /// Kiribati
@@ -994,6 +1016,7 @@ enum Country {
     "KI",
     "+686",
     "🇰🇮",
+    Currency.usd,
   ),
 
   /// Kosovo
@@ -1002,6 +1025,7 @@ enum Country {
     "XK",
     "+383",
     "🇽🇰",
+    Currency.eur,
   ),
 
   /// Kuwait
@@ -1010,6 +1034,7 @@ enum Country {
     "KW",
     "+965",
     "🇰🇼",
+    Currency.kwd,
   ),
 
   /// Kyrgyzstan
@@ -1018,6 +1043,7 @@ enum Country {
     "KG",
     "+996",
     "🇰🇬",
+    Currency.kgs,
   ),
 
   /// Laos
@@ -1026,6 +1052,7 @@ enum Country {
     "LA",
     "+856",
     "🇱🇦",
+    Currency.lak,
   ),
 
   /// Latvia
@@ -1034,6 +1061,7 @@ enum Country {
     "LV",
     "+371",
     "🇱🇻",
+    Currency.eur,
   ),
 
   /// Lebanon
@@ -1042,6 +1070,7 @@ enum Country {
     "LB",
     "+961",
     "🇱🇧",
+    Currency.lbp,
   ),
 
   /// Lesotho
@@ -1050,6 +1079,7 @@ enum Country {
     "LS",
     "+266",
     "🇱🇸",
+    Currency.lsl,
   ),
 
   /// Liberia
@@ -1058,6 +1088,7 @@ enum Country {
     "LR",
     "+231",
     "🇱🇷",
+    Currency.lrd,
   ),
 
   /// Libya
@@ -1066,6 +1097,7 @@ enum Country {
     "LY",
     "+218",
     "🇱🇾",
+    Currency.lyd,
   ),
 
   /// Liechtenstein
@@ -1074,6 +1106,7 @@ enum Country {
     "LI",
     "+423",
     "🇱🇮",
+    Currency.chf,
   ),
 
   /// Lithuania
@@ -1082,6 +1115,7 @@ enum Country {
     "LT",
     "+370",
     "🇱🇹",
+    Currency.eur,
   ),
 
   /// Luxembourg
@@ -1090,6 +1124,7 @@ enum Country {
     "LU",
     "+352",
     "🇱🇺",
+    Currency.eur,
   ),
 
   /// Macau
@@ -1098,6 +1133,7 @@ enum Country {
     "MO",
     "+853",
     "🇲🇴",
+    Currency.mop,
   ),
 
   /// Macedonia
