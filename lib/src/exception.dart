@@ -1,4 +1,4 @@
-part of phonecodes;
+part of '../phonecodes.dart';
 
 /// This exception is thrown when a country is not found
 class CountryNotFoundException implements Exception {

@@ -1,4 +1,4 @@
-part of phonecodes;
+part of '../phonecodes.dart';
 
 /// Filter class helps to filter the countries by name, code or dial code.
 class Filter {
@@ -12,7 +12,7 @@ class Filter {
   final String? dialCode;
 
   /// Creates a new filter with given name, code and dial code.
-  Filter({
+  const Filter({
     this.name,
     this.code,
     this.dialCode,

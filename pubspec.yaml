@@ -1,11 +1,17 @@
 name: phonecodes
-description: This package provides a list of Countries with their name, ISO code, Dial code, Flag.
-version: 0.0.1
+description: This package provides a list of Countries with their name, ISO code, Dial code, Flag and Currency
+version: 0.0.2
 repository: https://github.com/HeySreelal/phonecodes
+topics:
+  - country-codes
+  - countries
+  - currency
+  - dial-codes
+  - flags
 
 environment:
   sdk: ^3.0.4
 
 dev_dependencies:
-  lints: ^2.0.0
+  lints: ^3.0.0
   test: ^1.21.0

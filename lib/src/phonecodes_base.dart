@@ -1,4 +1,4 @@
-part of phonecodes;
+part of '../phonecodes.dart';
 
 /// This class is a collection of all the countries.
 ///

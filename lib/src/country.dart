@@ -1,4 +1,4 @@
-part of phonecodes;
+part of '../phonecodes.dart';
 
 /// This class represents a Country with its name, code, dialCode and flag.
 enum Country {
