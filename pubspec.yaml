@@ -3,11 +3,11 @@ description: This package provides a list of Countries with their name, ISO code
 version: 0.0.2
 repository: https://github.com/HeySreelal/phonecodes
 topics:
-  - Country Codes
-  - Countries
-  - Currency
-  - Dial Codes
-  - Flags
+  - country-codes
+  - countries
+  - currency
+  - dial-codes
+  - flags
 
 environment:
   sdk: ^3.0.4
