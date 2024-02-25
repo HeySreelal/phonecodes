@@ -1,77 +1,89 @@
-# Phone Codes 🌍
+# PhoneCodes
 
-A list of all the country codes, dial codes, their corresponding country names, and flag.
+![Version](https://img.shields.io/pub/v/phonecodes)
+![License](https://img.shields.io/github/license/heysreelal/phonecodes)
+![GitHub Stars](https://img.shields.io/github/stars/heysreelal/phonecodes?style=social)
+
+## Overview
+
+The **PhoneCodes** package is a comprehensive tool for Flutter and Dart developers, offering a convenient list of all countries along with essential details such as country dial codes, ISO codes, flags, and currencies. Whether you're building a phone authentication flow or integrating phone number input functionality, this package simplifies the process by providing easy access to crucial country information.
 
 ## Features
 
-1. Have access to all the country codes.
-2. Get the country code by country name.
-3. Get the country name by country code.
-4. Get the country by dial code.
+- **Country Enumeration**: Utilize the `Country` enum to effortlessly access country details including name, ISO code, dial code, and flag.
+- **Currency Enumeration**: Access currency information such as name, code, and symbol through the `Currency` enum.
+- **Flexible API**: The package offers a variety of methods within the `Countries` class, enabling developers to find countries by code, name, dial code, or through custom filters.
+- **Easy Integration**: Simply import the package and start using predefined country and currency enums, eliminating the need for manual data collection.
 
-## ⚙️ Getting started
+## Installation
 
-Install the package by adding the following line into your `pubspec.yaml` file:
+To use the **PhoneCodes** package in your Flutter/Dart project, add the following dependency to your `pubspec.yaml` file:
 
 ```yaml
 dependencies:
-  phonecodes: <VERSION>
+  phonecodes: <latest>
 ```
 
-Now import the package into your project:
+Then, run `flutter pub get` to install the package.
+
+## Usage
+
+### Country Enumeration
 
 ```dart
 import 'package:phonecodes/phonecodes.dart';
-```
 
-## 📚 Usage 
-
-### Find Country 🔍
-
-To find the dial code of a specific country, use the following code:
-
-```dart
-var country = Countries.findByName("United Kingdom");
-
-print(country.flag); // 🇬🇧
-```
-
-Similarly, you can get the country code, country name, and country flag by country name, country code, and dial code.
-
-```dart
-var c1 = Countries.findByName("United Kingdom");
-var c2 = Countries.findByCode("GB");
-var c3 = Countries.findByDialCode("+44");
-```
-
-If the country is not found, an exception will be thrown.
-
-## Model 🧑🏻‍💻
-
-Country object is as shown below:
-
-```dart
-class Country {
-  final String name;
-  final String code;
-  final String dialCode;
-  final String flag;
-
-  const Country({
-    required this.name,
-    required this.code,
-    required this.dialCode,
-    required this.flag,
-  });
+void main() {
+  // Access country details by enum
+  print(Country.india.name);            // Output: India
+  print(Country.india.code);            // Output: IN
+  print(Country.india.dialCode);        // Output: +91
+  print(Country.india.flag);            // Output: 🇮🇳
+  print(Country.india.currency.symbol)  // Output: ₹
 }
 ```
 
+### Currency Enumeration
 
-# Contribute 💻
-If you'd like to have a feature added, please open an issue or create a pull request.
+```dart
+import 'package:phonecodes/phonecodes.dart';
 
+void main() {
+  // Access currency details by enum
+  print(Currency.inr.name);    // Output: Indian Rupee
+  print(Currency.inr.code);    // Output: INR
+  print(Currency.inr.symbol);  // Output: ₹
+}
+```
 
-# License 🔑
+### Country Lookup
 
-License details can be found in the [LICENSE](./LICENSE) file.
+```dart
+import 'package:phonecodes/phonecodes.dart';
 
+void main() {
+  // Find country by ISO code
+  final Country country = Countries.findByCode('IN');
+  print(country.name); // Output: India
+
+  // Find country by name
+  final Country country2 = Countries.findByName('United States');
+  print(country2.dialCode); // Output: +1
+
+  // Find country by dial code
+  final Country country3 = Countries.findByDialCode('+44').first;
+  print(country3.flag); // Output: 🇬🇧
+}
+```
+
+## Contributing
+
+Contributions to the **PhoneCodes** package are welcome! If you encounter any issues or have suggestions for improvements, please feel free to submit a pull request or open an issue on the GitHub repository.
+
+## License
+
+This package is licensed under the MIT License. See the [LICENSE](LICENSE) file for more details.
+
+---
+
+**PhoneCodes** - Making country and currency information easily accessible for Flutter/Dart developers. Happy coding! 🚀🌍💰

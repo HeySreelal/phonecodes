@@ -60,7 +60,7 @@ class Countries {
   }
 
   /// Find matching countries the given filter, returns list of countries
-  List<Country>? findBy(Filter filter) {
+  List<Country> findBy(Filter filter) {
     return this[filter];
   }
 }

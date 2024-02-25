@@ -1,3 +1,7 @@
+# 0.0.3
+
+- Updated README
+
 # 0.0.2
 
 - Added `Country` enum to the library. Now you can use `Country` enum to get the country details.
