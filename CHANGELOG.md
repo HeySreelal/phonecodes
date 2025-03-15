@@ -1,3 +1,7 @@
+# 0.0.4
+
+- Fix: Italy's dial code (Thanks to [@Woutwo](https://github.com/Woutwo) for [#6](https://github.com/HeySreelal/phonecodes/pull/6))
+
 # 0.0.3
 
 - Updated README
