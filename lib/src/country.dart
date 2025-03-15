@@ -951,7 +951,7 @@ enum Country {
   italy._(
     "Italy",
     "IT",
-    "39",
+    "+39",
     "🇮🇹",
     Currency.eur,
   ),
